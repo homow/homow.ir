@@ -1,0 +1,244 @@
+/* main */
+.main {
+    padding-top: 8rem;
+}
+
+/* top main */
+
+.top-main {
+    min-height: 100vh;
+}
+
+.top-main__title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.top-main__title-text {
+    display: block;
+    text-align: center;
+}
+
+.top-main__img {
+    position: relative;
+    justify-self: center;
+    max-width: 30%;
+}
+
+.top-main__lap-top {
+    position: absolute;
+    width: 172% !important;
+    top: -10%;
+    left: 50%;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateX(-51%);
+    transition: all 1.4s;
+}
+
+.push-down-lap-top {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translate(-51%, 25%);
+}
+
+.top-main__img img {
+    width: 100%;
+}
+
+.top-main__text-wrapper {
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 8.5rem;
+}
+
+/* middle-main */
+
+.middle-main {
+    margin-top: 8rem;
+    position: relative;
+}
+
+.middle-main__wrapper {
+    padding: 6rem 1rem;
+}
+
+.contact-wrapper-img {
+    width: 10%;
+    position: absolute;
+    top: 0;
+    left: 3%;
+    transform: rotate(-24deg);
+}
+
+.contact-wrapper-img.hover-anim {
+    animation: ringThenSettle 2s ease forwards;
+}
+
+@keyframes ringThenSettle {
+    0% {
+        transform: rotate(-24deg);
+    }
+    5% {
+        transform: rotate(-18deg) translateX(6px);
+    }
+    10% {
+        transform: rotate(-30deg) translateX(-6px);
+    }
+    15% {
+        transform: rotate(-20deg) translateY(6px);
+    }
+    20% {
+        transform: rotate(-28deg) translateY(-6px);
+    }
+    25% {
+        transform: rotate(-22deg) translateX(4px);
+    }
+    30% {
+        transform: rotate(-26deg) translateX(-4px);
+    }
+    35% {
+        transform: rotate(-24deg) translateY(5px);
+    }
+    40% {
+        transform: rotate(-28deg) translateY(-5px);
+    }
+    45% {
+        transform: rotate(-22deg) translateX(5px);
+    }
+    50% {
+        transform: rotate(-30deg) translateX(-5px);
+    }
+    55% {
+        transform: rotate(-20deg);
+    }
+    60% {
+        transform: rotate(-26deg);
+    }
+    70% {
+        transform: rotate(-24deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.contact-wrapper-img img {
+    width: 100%;
+}
+
+.contact-wrapper__title {
+    text-align: center;
+}
+
+.contact-wrapper__title p {
+    margin: 1rem 0 .7rem 0;
+}
+
+.contact-wrapper__title span {
+    font-size: 14px;
+}
+
+.contact-box {
+    margin-top: 6rem;
+}
+
+.contact-box-sub {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 1200px) {
+    .top-main__title-wrapper {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .top-main__img {
+        max-width: 35% !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .contact-wrapper-img {
+        width: 12%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .top-main__img {
+        max-width: 40% !important;
+    }
+
+    .top-main__text {
+        max-width: 80%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .contact-wrapper__title h2 {
+        font-size: 1.3rem;
+        margin-top: 2rem;
+    }
+    .contact-wrapper-img {
+        width: 16% !important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .top-main__img {
+        max-width: 50% !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-wrapper-img {
+        width: 20% !important;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .top-main__img {
+        max-width: 60% !important;
+    }
+
+    .top-main__text {
+        font-size: 14px;
+    }
+
+    .contact-wrapper-img {
+        width: 25% !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .contact-wrapper__title h2 {
+        font-size: 1.1rem;
+    }
+
+    .contact-wrapper__title p {
+        font-size: .85rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .middle-main {
+        margin-top: 3rem;
+    }
+
+    .contact-wrapper-img {
+        width: 30% !important;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .contact-wrapper__title h2 {
+        font-size: 1rem;
+    }
+}

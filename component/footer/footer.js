@@ -34,10 +34,10 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
                 <div class="footer__links">
                     <h3>صفحه ها</h3>
                     <ul>
-                        <li><a href="index.html">خانه</a></li>
-                        <li><a href="about-me.html">من کی ام؟</a></li>
-                        <li><a href="contact.html">راه های ارتباطی</a></li>
-                        <li><a href="about-site.html">درباره سایت</a></li>
+                        <li><a href="index.html"><i class="fa-solid fa-house"></i>خانه</a></li>
+                        <li><a href="about-me.html"><i class="fa-solid fa-code"></i>من کی ام؟</a></li>
+                        <li><a href="contact.html"><i class="fa-solid fa-headset"></i>راه های ارتباطی</a></li>
+                        <li><a href="about-site.html"><i class="fa-solid fa-circle-info"></i>درباره سایت</a></li>
                     </ul>
                 </div>
 

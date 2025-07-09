@@ -61,6 +61,16 @@ html {
     max-width: 470px;
 }
 
+.footer__links a {
+    display: flex;
+    gap: .4rem;
+    align-items: baseline;
+}
+
+.footer__links h3 {
+    text-align: right;
+}
+
 .my-footer-wrapper p,
 .my-footer-wrapper a {
     font-size: 0.95rem;

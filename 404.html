@@ -2,9 +2,9 @@
 <html lang="fa">
 <head>
     <meta charset="UTF-8">
-    <title>Homow | 404</title>
+    <title>Homow | 404 - not found</title>
+    <script src="js/404.js" type="module"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
-
     <style>
         body {
             margin: 0;
@@ -14,88 +14,9 @@
             overflow: hidden;
             font-size: 2.5rem;
         }
-
-        a {
-            text-decoration: none;
-            display: block;
-            margin-top: 6rem;
-            color: #f8f8f8;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
-            width: fit-content;
-            padding: 1.5rem 2.5rem;
-            border-radius: 12px;
-            transition: all 0.3s ease;
-        }
-
-        a:hover {
-            background: rgba(255, 255, 255, 0.05); /* افکت روشن نرم روی پس‌زمینه تاریک */
-            box-shadow: 0 0 25px rgba(255, 255, 255, 0.3), 0 0 10px rgba(255, 255, 255, 0.15) inset;
-            color: #ffffff;
-            transform: translateY(-3px) scale(1.03);
-        }
-
-        i {
-            padding-right: 1rem;
-        }
-
-        .terminal {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background: rgba(15, 15, 15, 0.95);
-            width: 80%;
-            max-width: 800px;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 0 40px rgba(0, 255, 145, 0.3);
-        }
-
-        .code-line {
-            white-space: pre;
-            overflow: hidden;
-            border-right: .15em solid #00ff91;
-            animation: typing 3s steps(30, end), blink .75s step-end infinite;
-        }
-
-        .output {
-            margin-top: 20px;
-            opacity: 0;
-            animation: fadeIn 1s ease-in-out forwards;
-            animation-delay: 3s;
-            color: #ffffff;
-        }
-
-        @keyframes typing {
-            from {
-                width: 0
-            }
-            to {
-                width: 100%
-            }
-        }
-
-        @keyframes blink {
-            from, to {
-                border-color: transparent
-            }
-            50% {
-                border-color: #00ff91;
-            }
-        }
-
-        @keyframes fadeIn {
-            to {
-                opacity: 1;
-            }
-        }
     </style>
 </head>
 <body>
-<div class="terminal">
-    <div class="code-line">console.log("404 not found!");</div>
-    <div class="output">→ 404 not found!</div>
-    <a href="index.html"><i class="fa-solid fa-arrow-left"></i>back to homow site</a>
-</div>
+<not-found></not-found>
 </body>
 </html>

@@ -27,7 +27,7 @@ a {
     background-color: var(--primary__hover) !important;
 }
 .contact-to-me-btn-arrow {
-    margin-top: 1rem;
+    margin-top: 2.4rem;
     justify-self: center;
     display: flex;
     align-items: center;

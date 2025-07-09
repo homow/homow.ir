@@ -405,7 +405,7 @@
 
 .about-skills {
     position: relative;
-    margin-bottom: 6rem;
+    margin: 5rem 0 10rem 0;
 }
 
 .about-skills__img-wrapper {
@@ -419,13 +419,13 @@
 }
 
 .about-skills-wrapper-animate {
-    animation: fadeInUp 1s ease forwards;
+    animation: fadeInUp 1.4s ease forwards;
 }
 
 @keyframes fadeInUp {
     from {
         opacity: 0;
-        transform: translateY(40px);
+        transform: translateY(100px);
     }
     to {
         opacity: 1;
@@ -445,6 +445,7 @@
 
 .about-skills__title {
     line-height: 28px;
+    margin-top: 1.5rem;
 }
 
 .about-skills__list {
@@ -466,7 +467,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 3rem;
     align-items: center;
     padding-top: 2rem;
 }
@@ -749,7 +750,7 @@
     }
 
     .wrapper__top-main {
-        gap: 1.5rem;
+        gap: 6rem;
         flex-direction: column-reverse;
     }
 

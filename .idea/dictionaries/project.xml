@@ -2,6 +2,8 @@
   <dictionary name="project">
     <words>
       <w>afterbegin</w>
+      <w>afterend</w>
+      <w>beforeend</w>
       <w>homow</w>
       <w>mware</w>
       <w>sharifi</w>

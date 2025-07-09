@@ -15,12 +15,16 @@ a {
     text-decoration: none;
     color: inherit;
 }
+a:hover {
+    color: #5e5f64 !important;
+    text-shadow: 0 0 5px #5e5f64;
+}
 .text-list-wrapper li {
     list-style-type: none;
     display: flex;
     gap: 0.5rem;
     padding-right: 1rem;
-    margin-top: 1rem;
+    margin-top: 1.8rem;
 }
 @media only screen and (min-width: 800px) {
     .title-list-wrapper {
@@ -32,10 +36,7 @@ a {
 }
 @media only screen and (max-width: 500px) {
     .title-list-wrapper {
-        font-size: 1.3rem;
-    }
-    .text-list-wrapper {
-        font-size: 14px;
+        font-size: 1.35rem;
     }
 }
 @media only screen and (max-width: 400px) {

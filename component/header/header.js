@@ -32,7 +32,7 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
             <a href="contact.html" class="nav-menu__link"><i class="fa-solid fa-headset"></i>راه های ارتباطی</a>
         </li> 
         <li class="nav-menu__items">
-            <a href="contact.html" class="nav-menu__link"><i class="fa-solid fa-headset"></i>درباره سایت</a>
+            <a href="contact.html" class="nav-menu__link"><i class="fa-solid fa-circle-info"></i>درباره سایت</a>
         </li>
         <li class="designed-by-homow">
             <a target="_blank" href="https://bioe.ir/homayoun/">Designed with❤️by Homow</a>

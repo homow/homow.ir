@@ -15,8 +15,13 @@ html {
 a {
     color: inherit;
 }
+a:hover {
+    color: #5e5f64 !important;
+    text-shadow: 0 0 5px #5e5f64;
+}
 .text-box-wrapper {
     padding-right: 1rem;
+    margin-top: 2rem;
 }
 .text-box-sub-wrapper {
     display: flex;
@@ -29,7 +34,7 @@ a {
     padding-right: 0.5rem;
 }
 .text-box-sub-wrapper:not(:last-child) {
-    margin-bottom: 1rem;
+    margin-bottom: 1.8rem;
 }
 .circle {
     display: block;
@@ -53,18 +58,18 @@ a {
 }
 @media only screen and (max-width: 510px) {
     .title-box {
-        font-size: 1.2rem;
+        font-size: 1.35rem;
     }
     .text-box-sub-wrapper {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 }
 @media only screen and (max-width: 415px) {
     .title-box {
-        font-size: 1.1rem;
+        font-size: 1.25rem;
     }
     .text-box-sub-wrapper:not(:last-child) {
-        margin-bottom: .8rem;
+        margin-bottom: .85rem;
     }
 }
 </style>

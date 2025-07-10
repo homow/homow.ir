@@ -244,6 +244,12 @@ html.dark .contact-to-me-btn-arrow:hover {
 .playAroundImg img {
     width: 100%;
 }
+@media only screen and (max-width: 680px) {
+    .center-text {
+        max-width: 60%;
+        place-self: center;
+    }
+}
 
 @media only screen and (max-width: 1000px) {
     .primary-title {

@@ -61,7 +61,7 @@ li {
 }
 
 .theme {
-    width: 43px;
+    width: 41px;
     height: 40px;
 }
 
@@ -72,6 +72,9 @@ li {
     padding: 0.5rem 0.6rem;
     font-size: 1.5rem;
     cursor: pointer;
+    width: 100%;
+    height: 100%;
+    text-align: center;
 }
 
 .nav-menu {
@@ -158,7 +161,7 @@ li {
         gap: 1rem;
         box-shadow: 0 0 4px 0 var(--nav-menu__bg-color);
         transition: all 0.8s;
-        padding-top: 0.5rem;
+        padding-top: 1.5rem;
     }
 
     .designed-by-homow {
@@ -168,6 +171,8 @@ li {
     .theme {
         margin-right: .5rem;
         align-self: start;
+        width: 39px;
+        height: 37px;
     }
 
     .nav-menu__items {

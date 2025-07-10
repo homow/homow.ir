@@ -737,6 +737,9 @@
 }
 
 @media only screen and (max-width: 1400px) {
+    .top-main__title {
+        margin-top: 2rem;
+    }
     .top-main__img {
         max-width: 550px;
     }

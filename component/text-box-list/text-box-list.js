@@ -24,8 +24,26 @@ a:hover {
     display: flex;
     gap: 0.5rem;
     padding-right: 1rem;
-    margin-top: 1.8rem;
+    margin-top: .4rem;
 }
+.text-list-wrapper i {
+    font-size: 1.4rem;
+}
+[slot=text-list] {
+    padding: 1.2rem 0 1rem 0;
+    border-radius: 6px;
+    transition: all 250ms;
+}
+[slot=text-list]:hover {
+    background-color: var(--box-hover);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
+}
+
+html.dark [slot=text-list]:hover {
+    color: rgba(248, 248, 248, 0.91);
+}
+
 @media only screen and (min-width: 800px) {
     .title-list-wrapper {
         font-size: 1.6rem;

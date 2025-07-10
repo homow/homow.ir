@@ -139,7 +139,7 @@
 }
 
 .contact-wrapper__title p {
-    margin: 1rem 0 .7rem 0;
+    margin: 2rem 0 .7rem 0;
 }
 
 .contact-wrapper__title span {
@@ -152,7 +152,7 @@
 
 .contact-box-sub {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 4rem auto auto auto;
 }
 
 /* responsive */

@@ -1,4 +1,4 @@
-a {
+.text-box-icon a {
     text-decoration: underline !important;
 }
 
@@ -8,6 +8,10 @@ a {
     transition: all 0.3s ease;
     box-shadow: 0 0 0 transparent;
     transform: translateY(0);
+}
+
+.text-box-icon:not(:last-child) {
+    margin-bottom: 3rem;
 }
 
 .text-box-icon:hover {

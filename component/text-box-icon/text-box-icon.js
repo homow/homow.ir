@@ -9,7 +9,7 @@ export const addStyle = styles => {
 
 addStyle("component/text-box-icon/text-box-icon.css");
 
-const createTextBoxIcon = (data, baseWrapper) => {
+const createTextBoxIcon = data => {
     const textBoxIconWrapper = document.createElement('div');
     textBoxIconWrapper.className = "text-box-icon-wrapper";
 
@@ -49,7 +49,7 @@ const createTextBoxIcon = (data, baseWrapper) => {
         textBoxIconWrapper.appendChild(wrapper)
     })
 
-    baseWrapper.appendChild(textBoxIconWrapper)
+    return textBoxIconWrapper
 }
 
 export {createTextBoxIcon}

@@ -44,7 +44,7 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
                 <div class="footer__contact">
                     <h3>ارتباط</h3>
                     <div class="footer__icon-wrapper">
-                        <a href="https://wa.me/989036364078" target="_blank" title="واتساپ">
+                        <a href="https://wa.me/989210629512" target="_blank" title="واتساپ">
                             <i class="fab fa-whatsapp"></i>
                         </a>
                         <a href="tel:+989210629512" title="تماس 2">
@@ -56,7 +56,7 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
                         <a href="mailto:homayoun.sharifi80@gmail.com" title="ایمیل">
                             <i class="fas fa-envelope"></i>
                         </a>
-                        <a href="https://t.me/everyday_normal_here" target="_blank" title="تلگرام">
+                        <a href="https://t.me/homow_dev" target="_blank" title="تلگرام">
                             <i class="fab fa-telegram"></i>
                         </a>
                     </div>

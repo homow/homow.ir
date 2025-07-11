@@ -25,14 +25,20 @@ a:hover {
     gap: 0.5rem;
     padding-right: 1rem;
     margin-top: .4rem;
+    align-items: baseline;
 }
 .text-list-wrapper i {
     font-size: 1.4rem;
 }
+.title-list-wrapper {
+    margin-bottom: 1rem;
+}
 [slot=text-list] {
+    transition: all 250ms;
+}
+[slot=text-list] a, [slot=text-list] p {
     padding: 1.2rem 0 1rem 0;
     border-radius: 6px;
-    transition: all 250ms;
 }
 [slot=text-list]:hover {
     background-color: var(--box-hover);

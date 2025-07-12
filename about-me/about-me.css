@@ -82,24 +82,6 @@
     gap: 2.2rem;
 }
 
-/*.text-box-icon-wrapper {*/
-/*    border-radius: 12px;*/
-/*    padding: 16px;*/
-/*    transition: all 0.3s ease;*/
-/*    box-shadow: 0 0 0 transparent;*/
-/*    transform: translateY(0);*/
-/*}*/
-
-/*.text-box-icon-wrapper:hover {*/
-/*    background-color: var(--box-hover);*/
-/*    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);*/
-/*    transform: translateY(-2px);*/
-/*}*/
-
-/*html.dark .text-box-icon-wrapper:hover {*/
-/*    color: rgba(248, 248, 248, 0.91);*/
-/*}*/
-
 .skill-title {
     margin: 10rem 0 8rem 0;
     text-align: justify;
@@ -133,7 +115,7 @@
 /* req-to-develop */
 
 .req-to-develop {
-    margin: 8rem 0 12rem 0;
+    margin: 8rem 0 0 0;
 }
 
 .req-to-develop__sub-wrapper {

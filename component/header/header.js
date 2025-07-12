@@ -1,11 +1,6 @@
-const createStyle = href => {
-    const style = document.createElement("link")
-    style.setAttribute("rel", "stylesheet")
-    style.setAttribute("href", href)
-    return style
-}
+import {createTagLink} from "/component/main/createTagLink.js";
 
-const style = createStyle("component/header/header.css")
+const style = createTagLink("/component/header/header.css")
 
 const rootElem = document.querySelector(":root")
 
@@ -14,8 +9,8 @@ const template = document.createElement('template');
 template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
 <div class="wrapper__fixed-header">
     <div class="logo">
-        <a href="index.html">
-            <img src="asset/logo/homow-logo-1-crop.png" alt="logo">
+        <a href="/">
+            <img src="/asset/logo/homow-logo-1-crop.png" alt="logo">
         </a>
     </div>
     <ul class="nav-menu">
@@ -23,16 +18,16 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
             <i class="fas fa-moon"></i>
         </li>
         <li class="nav-menu__items home">
-            <a href="index.html" class="nav-menu__link"><i class="fa-solid fa-house"></i>خانه</a>
+            <a href="/" class="nav-menu__link"><i class="fa-solid fa-house"></i>خانه</a>
         </li>
         <li class="nav-menu__items">
-            <a href="about-me.html" class="nav-menu__link"><i class="fa-solid fa-code"></i>من کی ام؟</a>
+            <a href="/about-me/" class="nav-menu__link"><i class="fa-solid fa-code"></i>من کی ام؟</a>
         </li>
         <li class="nav-menu__items">
-            <a href="contact.html" class="nav-menu__link"><i class="fa-solid fa-headset"></i>راه های ارتباطی</a>
+            <a href="/contact/" class="nav-menu__link"><i class="fa-solid fa-headset"></i>راه های ارتباطی</a>
         </li> 
         <li class="nav-menu__items">
-            <a href="contact.html" class="nav-menu__link"><i class="fa-solid fa-circle-info"></i>درباره سایت</a>
+            <a href="/about-site/" class="nav-menu__link"><i class="fa-solid fa-circle-info"></i>درباره سایت</a>
         </li>
         <li class="designed-by-homow">
             <a target="_blank" href="https://bioe.ir/homayoun/">Designed with❤️by Homow</a>

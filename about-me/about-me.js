@@ -1,5 +1,5 @@
 import * as customObserver from '/js/main.js';
-import {aboutMe} from "/data/about-me-data.js";
+import {aboutMySkills} from "/about-me/data/about-me-data.js";
 import {createTextBoxIcon} from "/component/text-box-icon/text-box-icon.js";
 
 const titleText = document.querySelector('.title__text span:first-child');
@@ -10,4 +10,4 @@ const wrapper = document.getElementById("skills-box");
 customObserver.runObserver(titleText, customObserver.typingAnimations, {})
 customObserver.runObserver(reqToDevWrapper, customObserver.addClassName.bind(null, [[reqToDev, "add-animate-to-dev"]]), {})
 
-wrapper.appendChild(createTextBoxIcon(aboutMe));
+wrapper.appendChild(createTextBoxIcon(aboutMySkills));

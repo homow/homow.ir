@@ -450,7 +450,7 @@
 
 .about-skills__list {
     max-width: 800px;
-    margin: 4rem auto;
+    margin: 7rem auto;
 }
 
 /* bottom-main */
@@ -703,6 +703,13 @@
 .go-to__about-site {
     padding-top: 1.5rem;
     text-align: center;
+}
+
+.go-to__about-site span {
+    margin-bottom: 2rem;
+    display: block;
+    text-align: center;
+    justify-self: center;
 }
 
 .go-to__about-site a {

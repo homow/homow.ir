@@ -74,7 +74,7 @@ html.dark .contact-to-me-btn-arrow:hover {
     <a href="tel:+989036364078" class="contact-to-me-btn primary-button"><i class="fa-solid fa-phone-volume"></i>تماس مستقیم 1</a>
     <a href="tel:+989210629512" class="contact-to-me-btn primary-button"><i class="fa-solid fa-phone-volume"></i>تماس مستقیم 2</a>
 </div>
-<a href="contact.html" class="CTA-more-contact contact-to-me-btn-arrow">
+<a href="/contact/" class="CTA-more-contact contact-to-me-btn-arrow">
     <i class="fa-solid fa-headphones"></i>
     دیگر راه های ارتباطی
     <i class="fas fa-arrow-left"></i>

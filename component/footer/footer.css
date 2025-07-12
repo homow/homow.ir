@@ -98,12 +98,8 @@ html {
     gap: .4rem;
 }
 
-.fa-phone {
-    color: #bf1922;
-}
-
 .fa-phone-alt {
-    color: #21759B;
+    color: #bf1922;
 }
 
 .fa-whatsapp {
@@ -112,6 +108,10 @@ html {
 
 .fa-envelope {
     color: #d35a35;
+}
+
+.fa-instagram {
+    color: #B13BFF;
 }
 
 .fa-telegram {
@@ -201,5 +201,11 @@ html {
 
     .my-footer-wrapper p, .my-footer-wrapper a {
         font-size: 0.85rem;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .footer__icon-wrapper {
+        gap: 0;
     }
 }

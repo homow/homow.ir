@@ -35,7 +35,7 @@
     visibility: hidden;
     pointer-events: none;
     transform: translateX(-51%);
-    transition: all 1.4s;
+    transition: all 2.8s;
 }
 
 .push-down-lap-top {
@@ -57,12 +57,14 @@
 
 .top-main__text {
     margin-bottom: 2rem;
+    max-width: 450px;
+    text-align: center;
 }
 
 /* middle-main */
 
 .middle-main {
-    margin-top: 8rem;
+    margin: 8rem 0 0 0;
     position: relative;
 }
 
@@ -150,7 +152,7 @@
     margin-top: 6rem;
 }
 
-.contact-box-sub {
+.contact-box-sub, #custom-form {
     max-width: 800px;
     margin: 4rem auto auto auto;
 }
@@ -171,14 +173,25 @@
 .img-form {
     width: 20%;
     position: absolute;
-    z-index: -1;
     left: -10%;
     top: -10%;
-    transform: rotate(-36deg);
+    z-index: -1;
+    animation: upDown 4s infinite;
+}
+
+@keyframes upDown {
+    50% {
+        transform: translateY(-50%);
+    }
+}
+
+.img-form.stop {
+    animation: none;
 }
 
 .img-form img {
     width: 100%;
+    transform: rotate(-36deg);
 }
 
 #custom-form p {
@@ -204,6 +217,7 @@
     gap: 7rem;
     border-radius: 12px;
     background-color: var(--background);
+    transition: all 600ms ease;
 }
 
 .form-status button {
@@ -223,14 +237,24 @@
     justify-content: center;
     flex-direction: column;
     gap: 2rem;
-    border-radius: 6px;
+    border-radius: 12px;
     padding: 2rem 1rem;
+    z-index: 1;
+    position: relative;
+}
+
+#custom-form form img {
+    position: absolute;
+    top: 11%;
+    left: 7%;
+    width: 15%;
+    z-index: -1;
 }
 
 #custom-form form label {
     max-width: 600px;
     width: 100%;
-    border-radius: 6px;
+    border-radius: 12px;
     overflow: hidden;
     box-shadow: var(--box-shadow);
 }
@@ -395,6 +419,12 @@
 
     .contact-wrapper__title p {
         font-size: .85rem;
+    }
+
+    #custom-form form img {
+        top: 10%;
+        left: 6%;
+        width: 20%;
     }
 }
 

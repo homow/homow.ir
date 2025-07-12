@@ -22,11 +22,12 @@ img.addEventListener('mouseenter', () => {
     }
 });
 
+// form
 form.addEventListener('submit', async e => {
     e.preventDefault()
     const formData = new FormData(form)
 
-    await fetch('https://formsubmit.co/ajax/homow_dev@outlook.com', {
+    await fetch('https://formsubmit.co/ajax/3dab844489ba8c6430ba62b3f7144950', {
         method: 'POST',
         headers: {"Accept": "application/json"},
         body: formData,

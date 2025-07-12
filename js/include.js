@@ -3,8 +3,6 @@ import {Footer} from "/component/footer/footer.js";
 import {CTA} from "/component/CTA/CTA.js";
 
 const metaAndIcons = `<!-- meta -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 <meta name="author" content="همایون شریفی (homayoun sharifi)">
 <meta name="copyright" content="Homow - همایون شریفی">
 <meta http-equiv="Content-Language" content="fa">

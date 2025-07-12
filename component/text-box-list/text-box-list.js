@@ -35,6 +35,7 @@ a:hover {
 }
 [slot=text-list] {
     transition: all 250ms;
+    border-radius: 6px;
 }
 [slot=text-list] a, [slot=text-list] p {
     padding: 1.2rem 0 1rem 0;
@@ -66,6 +67,14 @@ html.dark [slot=text-list]:hover {
 @media only screen and (max-width: 400px) {
     .text-list-wrapper li {
         padding-right: .4rem;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .text-list-wrapper {
+        font-size: 14px;
+    }
+    .title-list-wrapper {
+        font-size: 1.15rem;
     }
 }
 </style>

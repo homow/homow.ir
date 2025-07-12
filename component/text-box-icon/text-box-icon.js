@@ -1,13 +1,13 @@
-export const addStyle = styles => {
-    const styleTag = document.createElement('link');
-    styleTag.rel = 'stylesheet';
-    styleTag.href = styles;
+import {createTagLink} from "/component/main/createTagLink.js";
+
+const addStyle = href => {
+    const styleTag = createTagLink(href);
 
     const head = document.querySelectorAll("head link[rel=stylesheet]")
     head[head.length - 1].insertAdjacentElement("afterend", styleTag);
 }
 
-addStyle("component/text-box-icon/text-box-icon.css");
+addStyle("/component/text-box-icon/text-box-icon.css");
 
 const createTextBoxIcon = data => {
     const textBoxIconWrapper = document.createElement('div');

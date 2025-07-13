@@ -6,9 +6,7 @@ const allImages = document.querySelectorAll('.zoom-in-this-img')
 const createModalImage = () => {
     return `<div class="img-modal-wrapper">
 <span>x</span>
-<div class="img-modal-wrapper__img-wrapper">
-    <img src="" alt="zoom-img">
-</div>
+<img src="" alt="zoom-img">
 </div>`
 }
 

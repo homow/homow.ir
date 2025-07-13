@@ -22,8 +22,10 @@
     <title>homow | درباره سایت</title>
 
     <!-- script -->
+    <script type="module" src="/component/title-text-img/title-text-img.js"></script>
     <script type="module" src="/js/include.js"></script>
     <script type="module" src="/about-site/about-site.js"></script>
+    <script type="module" src="/js/zoomInImages.js"></script>
 </head>
 <body>
 <header class="header" id="fixed-header">
@@ -58,28 +60,32 @@
             <div class="container">
                 <div class="about-site-wrapper glass-morphism-box">
                     <div class="abouts-site__title">
-                        <h3>
-                            رسیدیم به بخش مورد علاقه من، یعنی توضیح روند ساخت این وبسایت.
+                        <h3 class="about-site__title-text">
+                            رسیدیم به بخش مورد علاقه‌م: روند ساخت این وبسایت.
                         </h3>
+                        <div class="arrow-img-wrapper">
+                            <img src="/asset/img/about-site/arrow.png" alt="arrow">
+                        </div>
+                        <div class="about-site__tech glass-morphism-box">
+                            <span><i style="color:#FF9D23;" class="fa-brands fa-js"></i> JavaScript</span>
+                            <span><i style="color:#DC3C22;" class="fa-brands fa-html5"></i> HTML5</span>
+                            <span><i style="color:#4B70F5;" class="fa-brands fa-css3"></i> CSS3</span>
+                            <span><i style="color:#1F7D53;" class="fa-brands fa-git-alt"></i> Git</span>
+                            <span><i style="color:#B13BFF;" class="fa-brands fa-github"></i> GitHub</span>
+                            <span><i style="color:rgb(128, 132, 16);" class="fa-solid fa-laptop-code"></i> WebStorm</span>
+                        </div>
                         <p>
-                            من این وبسایت رو با هزینه 40 هزار تومن ساختم، درست شنیدی، 40 هزار تومن.
+                            من کل این وبسایت رو فقط با ۴۰ هزار تومن ساختم — درست خوندی، فقط هزینه یه دامین .ir!
                         </p>
                         <p>
                             فقط و فقط هزینه یک دامین .ir رو دادم و تمام سایت رو خودم طراحی کردم.
                         </p>
-                    </div>
-
-                    <div class="about-site__copy">
-                        <h4>میخوام از اون قسمت سایتم که گفتم ایده برداری کردم شروع کنم.</h4>
-                        <p>
-                            من از قسمت header
-                            <a href="https://saas-kit.framer.website/">این طرح sanaskit</a>
-                            ایده برداری کردم، البته بدون مپی کردن محتواش
-                        </p>
-                        <div class="about-site__wrapper-img">
-                            <img src="/asset/img/about-site/sanskit.png" alt="sanskit">
+                        <div class="about-site__bottom-img">
+                            <img src="/asset/img/about-site/async-laptop.png" alt="async code in lap top">
                         </div>
                     </div>
+
+                    <div class="about-site-content"></div>
                 </div>
             </div>
         </div>

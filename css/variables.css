@@ -97,6 +97,16 @@ body {
     font-weight: normal;
 }
 
+.link-hover-style {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.link-hover-style:hover {
+    color: #5e5f64 !important;
+    text-shadow: 0 0 5px #5e5f64;
+}
+
 .center-flex-item {
     display: flex;
     align-items: center;
@@ -245,6 +255,15 @@ html.dark .contact-to-me-btn-arrow:hover {
 
 
 /* responsive */
+@media only screen and (max-width: 1100px) {
+    .center-text1100 {
+        max-width: 60%;
+        text-align: center;
+        place-self: center;
+        line-height: 30px;
+    }
+}
+
 @media only screen and (max-width: 680px) {
     .center-text680 {
         max-width: 60%;

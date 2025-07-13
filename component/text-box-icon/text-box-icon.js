@@ -1,11 +1,4 @@
-import {createTagLink} from "/component/main/createTagLink.js";
-
-const addStyle = href => {
-    const styleTag = createTagLink(href);
-
-    const head = document.querySelectorAll("head link[rel=stylesheet]")
-    head[head.length - 1].insertAdjacentElement("afterend", styleTag);
-}
+import {addStyle} from "/component/main/createTagLink.js";
 
 addStyle("/component/text-box-icon/text-box-icon.css");
 

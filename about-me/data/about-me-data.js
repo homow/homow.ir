@@ -77,6 +77,16 @@ const aboutMySkills = [
         ]
     },
     {
+        dataTitle: "توسعه اپلیکیشن‌های دسکتاپ با C# و WPF",
+        dataIcon: "fa-solid fa-hashtag",
+        dataColor: "#B13BFF",
+        dataText: [
+            "انجام پروژه‌های سبک و دانشجویی با طراحی شیک و تجربه کاربری خوب در Visual Studio",
+            " تمرکز روی نیاز پروژه‌های دانشجویی، ساده، قابل فهم و مستند برای ارائه در ویژوال استودیو",
+            "ساخت اپ‌های فرم‌محور با ظاهر مدرن، استفاده از WPF برای طراحی رابط کاربری مرتب و کاربرپسند",
+        ]
+    },
+    {
         dataTitle: " برنامه‌نویسی با Python",
         dataIcon: "fa-brands fa-python",
         dataColor: "#00B489",

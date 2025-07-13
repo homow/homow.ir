@@ -45,18 +45,88 @@
 }
 
 .about-site {
+    position: relative;
+}
 
+.about-site__tech {
+    width: 100%;
+    direction: ltr;
+    box-shadow: var(--box-shadow);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 4rem;
+    place-self: center;
+    margin: 6rem 0;
+    gap: 1rem;
+}
+
+.arrow-img-wrapper {
+    width: 10%;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    z-index: -1;
+    opacity: .5;
+}
+
+.arrow-img-wrapper img {
+    width: 100%;
+}
+
+.about-site__tech span {
+    border-radius: 12px;
+    padding: .6rem 1.5rem;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    transition: all .35s ease-in;
+    backdrop-filter: blur(25px);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+html.dark .about-site__tech span {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.about-site__tech span:hover {
+    background-color: var(--box-hover) !important;
+    transform: translateY(-4px);
+}
+
+html.dark .about-site__tech span:hover {
+    background-color: rgba(0, 0, 0, 0.25) !important;
+}
+
+.about-site__tech i {
+    font-size: 1.8rem;
 }
 
 .about-site-wrapper {
     text-align: center;
-    padding: 2rem 0;
+    padding: 2rem 1rem;
+}
+
+.about-site__title-text {
+    margin: 1rem 0;
+}
+
+.about-site__bottom-img {
+    margin-top: 1rem;
+    width: 60%;
+    place-self: center;
+}
+
+.about-site__bottom-img img {
+    width: 100%;
 }
 
 .abouts-site__title {
     margin: 6rem 0 2rem 0;
 }
-
 
 .abouts-site__title p:not(:last-child) {
     margin-top: 2rem;
@@ -66,19 +136,31 @@
     margin-top: .7rem;
 }
 
-.about-site__copy {
-    margin-top: 4rem;
+.about-site-content {
+    margin-top: 6rem;
 }
 
-.about-site__copy a {
+.about-site-content a {
     text-decoration: underline !important;
     font-weight: 600;
 }
 
+.about-site-content p {
+    margin-top: 2rem;
+}
+
 .about-site__wrapper-img {
-    width: 90%;
-    justify-self: center;
+    width: 100%;
     margin-top: 3rem;
+}
+
+.about-site__wrapper-img div {
+    justify-self: center;
+    width: 70%;
+}
+
+.about-site__wrapper-img div:not(:first-child) {
+    margin-top: 1rem;
 }
 
 .about-site__wrapper-img img {
@@ -88,13 +170,40 @@
 
 /* responsive */
 
+@media only screen and (max-width: 1440px) {
+    .arrow-img-wrapper {
+        width: 13%;
+        left: 4%;
+        top: 5%;
+        opacity: 0.3;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     .top-main-wrapper {
         flex-direction: column;
         gap: 2.4rem;
     }
+
     .top-main__img-wrapper {
         width: 50%;
+    }
+
+    .about-site__tech {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+    }
+
+    .arrow-img-wrapper {
+        left: 5%;
+        top: 6%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .arrow-img-wrapper {
+        left: 10%;
+        top: 7%;
     }
 }
 
@@ -102,16 +211,81 @@
     .top-main__img-wrapper {
         width: 70%;
     }
+
+    .about-site__tech span {
+        font-size: 1rem;
+    }
+
+    .about-site__tech i {
+        font-size: 1.2rem;
+    }
+
+    .arrow-img-wrapper {
+        top: 7%;
+    }
+
+    .about-site__bottom-img {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .arrow-img-wrapper {
+        top: 8%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about-site__tech span {
+        padding: .5rem;
+    }
+
+    .about-site__tech {
+        padding: 2rem 1rem;
+    }
+
+    .arrow-img-wrapper {
+        width: 15%;
+        top: 8%;
+    }
 }
 
 @media only screen and (max-width: 500px) {
     .top-main__img-wrapper {
         width: 80%;
     }
+
+    .arrow-img-wrapper {
+        width: 17%;
+        top: 9%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .about-site__tech {
+        grid-template-columns: repeat(2, auto);
+    }
+    .arrow-img-wrapper {
+        top: 9%;
+    }
 }
 
 @media only screen and (max-width: 350px) {
     .top-main__img-wrapper {
         width: 90%;
+    }
+
+    .about-site__tech {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.2rem;
+    }
+
+    .arrow-img-wrapper {
+        width: 27%;
+        top: 8%;
+    }
+
+    .about-site__tech span {
+        padding: .8rem;
     }
 }

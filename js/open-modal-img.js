@@ -1,4 +1,5 @@
 import {addStyle} from "/component/main/createTagLink.js"
+
 addStyle("/css/img-modal.css")
 
 const allImages = document.querySelectorAll('.zoom-in-this-img')
@@ -14,17 +15,18 @@ document.body.insertAdjacentHTML("afterbegin", createModalImage());
 
 const modalWrapper = document.querySelector('.img-modal-wrapper');
 
-modalWrapper.addEventListener("click", e => {
-    if (e.target.tagName === "SPAN") {
-        modalWrapper.classList.remove("enable-img-modal");
-    }
-})
+const closeModal = () => {
+    modalWrapper.classList.remove("enable-img-modal");
+}
 
-const zoomInImage = event => {
+modalWrapper.addEventListener("click", e => e.target.tagName === "SPAN" && closeModal())
+document.addEventListener("keydown", e => e.key === "Escape" & modalWrapper.matches(".enable-img-modal") && closeModal())
+
+const openModalImg = event => {
     modalWrapper.classList.add("enable-img-modal");
     modalWrapper.querySelector("img").src = event.target.dataset.zoomSrc;
 }
 
 allImages.forEach(image => {
-    image.addEventListener('click', zoomInImage)
+    image.addEventListener('click', openModalImg)
 })

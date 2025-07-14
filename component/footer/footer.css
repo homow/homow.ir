@@ -144,12 +144,12 @@ html {
     font-weight: 600;
 }
 
-.footer__copyright a {
+.footer__copyright a, .footer__info a {
     font-family: 'dana extrabold', serif;
     text-decoration: underline;
 }
 
-.footer__copyright a:hover, .footer__links a:hover {
+.footer__copyright a:hover, .footer__links a:hover, .footer__info a:hover {
     color: #5e5f64;
     text-shadow: 0 0 5px #5e5f64;
 }

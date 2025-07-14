@@ -40,6 +40,7 @@ html {
     --box-shadow: 0 2px 8px 2px #a1a9c6;
     --inset-shadow: 0 0 5px 0 #1e1f26 inset;
     --box-hover: rgba(0, 0, 0, 0.05);
+    --new-box-hover: rgba(0, 0, 0, 0.05);
 
     /* footer */
     --background__footer: linear-gradient(to left, #e0eaff, #c2d4ff);
@@ -65,6 +66,7 @@ html {
     --primary__hover: rgba(114, 112, 112, 0.95);
     --box-shadow: 0 2px 8px 2px #121318;
     --box-hover: rgba(0, 0, 0, 0.25);
+    --new-box-hover: rgba(0, 0, 0, 0.25);
 
     /* footer */
     --background__footer: #2a2d37;
@@ -283,7 +285,7 @@ html.dark .contact-to-me-btn-arrow:hover {
     }
 
     .playAroundImg {
-        width: 16%;
+        width: 15%;
     }
 }
 
@@ -292,7 +294,7 @@ html.dark .contact-to-me-btn-arrow:hover {
         font-size: 58px;
     }
     .playAroundImg {
-        width: 18%;
+        width: 21%;
     }
 }
 
@@ -316,6 +318,10 @@ html.dark .contact-to-me-btn-arrow:hover {
 
     .primary-button {
         font-size: 14px;
+    }
+
+    .playAroundImg {
+        width: 24%;
     }
 }
 

@@ -9,7 +9,7 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
 <div class="footer__info-wrapper">
                 <div class="footer__info">
                     <h2 class="footer__title">وبسایت شخصی همایون شریفی</h2>
-                    <p>این وبسایت صرفاً جهت معرفی مهارت‌ها و تجربیات شخصی من طراحی شده است و هیچگونه فعالیت تجاری یا فروش محصول در آن انجام
+                    <p>وبسایت <a href="https://homow.ir">homow</a> صرفاً جهت معرفی مهارت‌ها و تجربیات شخصی من طراحی شده است و هیچگونه فعالیت تجاری یا فروش محصول در آن انجام
                         نمی‌شود.</p>
                     <p>تمامی محتوای این سایت توسط خودم نوشته شده در بخش‌هایی از طراحی، الهام گرفته‌ام که به آن‌ها اشاره شده.</p>
                 </div>
@@ -37,7 +37,7 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
                 </div>
 
                 <div class="footer__contact">
-                    <h3>ارتباط</h3>
+                    <h3>ارتباط سریع</h3>
                     <div class="footer__icon-wrapper">
                         <a href="https://www.instagram.com/homow_dev" title="اینستاگرام">
                             <i class="fa-brands fa-instagram"></i>
@@ -51,7 +51,7 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
                         <a href="https://t.me/homow_dev" target="_blank" title="تلگرام">
                             <i class="fab fa-telegram"></i>
                         </a>
-                        <a href="mailto:homayoun.sharifi80@gmail.com" title="ایمیل">
+                        <a href="mailto:homow_dev@outlook.com" title="ایمیل">
                             <i class="fas fa-envelope"></i>
                         </a>
                     </div>

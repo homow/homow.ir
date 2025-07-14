@@ -10,13 +10,13 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
             font-size: 2.5rem;
         }
 
-        a {
+        .link {
             text-decoration: none;
             display: flex;
             align-items: center;
             margin-top: 6rem;
             color: #f8f8f8;
-            box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 1);
+            box-shadow: 0 0 18px 0 rgb(2 194 44);
             width: fit-content;
             padding: 1.5rem 2.5rem;
             border-radius: 12px;
@@ -24,7 +24,7 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
         }
 
         a:hover {
-            background: rgba(255, 255, 255, 0.05); /* افکت روشن نرم روی پس‌زمینه تاریک */
+            background: rgba(255, 255, 255, 0.05);
             box-shadow: 0 0 25px rgba(255, 255, 255, 0.3), 0 0 10px rgba(255, 255, 255, 0.15) inset;
             color: #ffffff;
             transform: translateY(-3px) scale(1.03);
@@ -61,6 +61,14 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
             animation-delay: 3s;
             color: #ffffff;
         }
+        #homow {
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 12px;
+            padding: .4rem .8rem;
+        }
 
         @keyframes typing {
             from {
@@ -86,10 +94,11 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
             }
         }
     </style>
+<a href="/about-me/" id="homow">who is homow?</a>
 <div class="terminal">
     <div class="code-line">console.log("404 | not found!");</div>
     <div class="output">→ 404 | not found!</div>
-    <a href="index.html"><i class="fa-solid fa-arrow-left"></i>back to homow site</a>
+    <a class="link" href="/"><i class="fa-solid fa-arrow-left"></i>back to homow site</a>
 </div>`;
 
 class NotFound extends HTMLElement {

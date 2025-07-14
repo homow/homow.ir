@@ -189,8 +189,8 @@
     text-align: center;
 }
 
-.req-to-develop__title:first-child {
-    margin-bottom: .5rem;
+.req-to-develop__title:not(:last-child) {
+    margin-bottom: 1rem;
 }
 
 /* responsive */

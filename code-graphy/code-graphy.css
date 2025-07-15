@@ -49,7 +49,7 @@
 }
 
 .arrow-img-wrapper {
-    width: 10%;
+    width: 20%;
     position: absolute;
     left: 20px;
     top: 20px;
@@ -112,12 +112,29 @@ html.dark .about-site__tech span {
     animation: techBounceOnce .35s ease;
 }
 
-.animate-tech span:nth-child(1) { animation-delay: 0s; }
-.animate-tech span:nth-child(2) { animation-delay: 0.2s; }
-.animate-tech span:nth-child(3) { animation-delay: 0.4s; }
-.animate-tech span:nth-child(4) { animation-delay: .6s; }
-.animate-tech span:nth-child(5) { animation-delay: .8s; }
-.animate-tech span:nth-child(6) { animation-delay: 1s; }
+.animate-tech span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.animate-tech span:nth-child(2) {
+    animation-delay: 0.35s;
+}
+
+.animate-tech span:nth-child(3) {
+    animation-delay: 0.65s;
+}
+
+.animate-tech span:nth-child(4) {
+    animation-delay: .95s;
+}
+
+.animate-tech span:nth-child(5) {
+    animation-delay: 1.25s;
+}
+
+.animate-tech span:nth-child(6) {
+    animation-delay: 1.55s;
+}
 
 .about-site__tech span:hover {
     background-color: var(--new-box-hover) !important;
@@ -130,7 +147,7 @@ html.dark .about-site__tech span {
 
 .about-site-wrapper {
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 2rem 1rem 6rem 1rem;
 }
 
 .about-site__title-text {
@@ -191,6 +208,55 @@ html.dark .about-site__tech span {
     border-radius: 12px;
 }
 
+/*--------------*/
+
+.bottom-main {
+    margin-top: 14rem;
+}
+
+.bottom-main-wrapper {
+
+}
+
+/* know-me */
+
+.know-me {
+    margin-top: 8rem;
+    text-align: center;
+}
+
+.know-me-wrapper {
+    padding: 6rem 1rem 2rem 1rem;
+    border-radius: 12px;
+    position: relative;
+    background-color: var(--background-red);
+}
+
+.know-me__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 1rem;
+}
+
+.know-me__img img {
+    width: 100%;
+}
+
+.know-me__title-wrapper {
+    margin: 2rem 0;
+}
+
+.know-me__text-wrapper p {
+    line-height: 34px;
+    margin-bottom: 3rem;
+}
+
+.know-me-btn {
+    margin-top: 3rem;
+    place-self: center;
+}
+
 /* responsive */
 
 @media only screen and (max-width: 1200px) {
@@ -209,13 +275,6 @@ html.dark .about-site__tech span {
     }
 }
 
-@media only screen and (max-width: 1000px) {
-    .arrow-img-wrapper {
-        left: 10%;
-        top: 7%;
-    }
-}
-
 @media only screen and (max-width: 800px) {
     .top-main__img-wrapper {
         width: 70%;
@@ -230,7 +289,7 @@ html.dark .about-site__tech span {
     }
 
     .about-site__bottom-img {
-        width: 90%;
+        width: 100%;
     }
 }
 

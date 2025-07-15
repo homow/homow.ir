@@ -83,4 +83,8 @@
     .title-text-img__text {
         font-size: .9rem;
     }
+
+    .title-text__img-text-sub {
+        font-size: .8rem;
+    }
 }

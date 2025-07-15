@@ -30,9 +30,9 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
                     <h3>صفحه ها</h3>
                     <ul>
                         <li><a href="/"><i class="fa-solid fa-house"></i>خانه</a></li>
-                        <li><a href="/about-me/"><i class="fa-solid fa-code"></i>من کی ام؟</a></li>
+                        <li><a href="/about-me/"><i class="fa-solid fa-question"></i>من کی ام؟</a></li>
                         <li><a href="/contact/"><i class="fa-solid fa-headset"></i>راه های ارتباطی</a></li>
-                        <li><a href="/about-site/"><i class="fa-solid fa-circle-info"></i>درباره سایت</a></li>
+                        <li><a href="/code-graphy/"><i class="fa-solid fa-code"></i>کد گرافی</a></li>
                     </ul>
                 </div>
 
@@ -51,7 +51,7 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
                         <a href="https://t.me/homow_dev" target="_blank" title="تلگرام">
                             <i class="fab fa-telegram"></i>
                         </a>
-                        <a href="mailto:homow_dev@outlook.com" title="ایمیل">
+                        <a href="mailto:homow_dev@proton.me" title="ایمیل">
                             <i class="fas fa-envelope"></i>
                         </a>
                     </div>
@@ -60,7 +60,7 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
 
             <div class="footer__copyright">
                 <p>© 2025 تمامی حقوق این وبسایت برای <a href="https://homow.ir">homow.ir</a> محفوظ میباشد و فقط قسمت کوچیکی از سایت ایده برداری شده که
-                    در صفحه <a href="/about-site/">«درباره سایت»</a> ذکر کرده ام. </p>
+                    در صفحه <a href="/code-graphy/">«کد گرافی»</a> ذکر کرده ام. </p>
                 <p> آزاد برای دیدن، الهام‌ گرفتن و ساختن، نه کپی برداری. لطفاً احترام به حقوق این وبسایت را رعایت کنید و
                     درصورت ایده برداری، مانند من منبع را ذکر کنید.</p>
             </div>

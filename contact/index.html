@@ -83,7 +83,7 @@
 
                     <div class="contact-box-sub">
                         <text-box-list data-title="ایمیل های من:" data-icon="fa-solid fa-envelope-open-text" data-color="#EAA64D">
-                            <li slot="text-list" data-icon="fa-brands fa-microsoft" data-color="#309898"><a target="_blank" href="mailto:homow_dev@outlook.com">homow_dev@outlook.com</a></li>
+                            <li slot="text-list" data-icon="fa-solid fa-envelope" data-color="#309898"><a target="_blank" href="mailto:homow_dev@proton.me">homow_dev@proton.me</a></li>
                             <li slot="text-list" data-icon="fa-brands fa-google" data-color="#CB0404"><a target="_blank" href="mailto:homayoun.sharifi80@gmail.com">homayoun.sharifi80@gmail.com</a></li>
                         </text-box-list>
                     </div>
@@ -103,38 +103,73 @@
                             <li slot="text-list" data-icon="fa-brands fa-instagram" data-color="#9B177E"><a target="_blank" href="https://www.instagram.com/homow_dev">اینستاگرام من</a></li>
                         </text-box-list>
                     </div>
-                    <div id="custom-form">
-                        <div class="img-form">
-                            <img src="/asset/img/contact/mail.png" alt="mail picture">
-                        </div>
-                        <p>
-                            <i style="color:#EB5B00;" class="fa-solid fa-envelopes-bulk"></i>
-                            اگه حرفی، انتقادی، نظری، پیشنهادی یا حتی برای ارتباط سریع، میتونید با این فرم باهام حرف بزنید
-                        </p>
-                        <div class="form-status">
-                            <span>پیامت بهم رسید، جواب میدم بزودی</span>
-                            <button class="primary-button">Done</button>
-                        </div>
-                        <form>
-                            <img src="/asset/img/contact/send.png" alt="send picture">
-                            <label id="name-label">
-                                <input class="glass-morphism-box" type="text" name="name" placeholder="اسم" required>
-                            </label>
-                            <label id="email-label">
-                                <input class="glass-morphism-box" type="email" name="email" placeholder="ایمیل" required>
-                            </label>
-                            <label id="textarea-label">
-                                <textarea class="glass-morphism-box" name="message" placeholder="پیام" required></textarea>
-                            </label>
-
-                            <input type="hidden" name="_captcha" value="false">
-                            <button class="glass-morphism-box" type="submit">ارسال</button>
-                        </form>
-                    </div>
+                    <custom-form></custom-form>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="bottom-main">
+        <div class="container">
+            <div class="bottom-main-wrapper">
+                <a href="/about-me/" class="bottom-main-wrapper__img playAroundImg">
+                    <img src="/asset/img/index/about-me.png" alt="about-me">
+                </a>
+                <div class="bottom-main__title-wrapper">
+                    <h2>
+                        <span>
+                            اگر هنوز منو کامل نشناختی یا نمیدونی کی ام، منو بیشتر بشناس
+                        </span>
+                    </h2>
+                </div>
+                <div class="bottom-main__text-wrapper">
+                    <p>
+                        توی این صفحه کامل خودم و مهارت هامو بهت معرفی کردم، پس دعوتت میکنم به صفحه معرفی
+                    </p>
+                    <p>
+                        و خوشحال میشم بعداز شناخت من، با همکاری کردن باهام، باعث پیشرفت من و برند کوچیکم بشی.
+                    </p>
+                    <a href="/about-me/" class="know-me primary-button">
+                        <i class="fa-solid fa-circle-question"></i>
+                        منو بشناس!
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <aside class="req-codeGraphy">
+        <div class="container">
+            <div class="req-codeGraphy-wrapper">
+                <div class="req-codeGraphy__title-wrapper">
+                    <h2 class="text-box-grey">
+                        <span>
+                            دعوتت میکنم به صفحه جالب با ایده کم یاب کد گرافی
+                        </span>
+                    </h2>
+                </div>
+                <div class="req-codeGraphy__text-wrapper">
+                    <a href="/code-graphy/" class="req-codeGraphy__img playAroundImg">
+                        <img src="/asset/img/about-me/about-site.png" alt="req-codeGraphy">
+                    </a>
+                    <h3>
+                        چرا تاکید بر کمیاب بودن این صفحه دارم؟
+                    </h3>
+                    <p class="center-text1100">
+                        چون توی این 24 سالی که زندگی کردم و توی اینترنت گشتم، هیچوقت ندیدم کسی به این شکل درباره پشت صحنه وبسایت و روند توسعه اش شفاف سازی بکنه
+                    </p>
+                    <p class="center-text1100">
+                        پس من تصمیم گرفتم برای اولین بار بصورت جدی این ایده رو پیاده سازی بکنم با اسم کد گرافی، پس بیا به این صفحه خاص!
+                    </p>
+
+                    <a href="/code-graphy/" class="req-codeGraphy-btn primary-button">
+                        <i class="fa-solid fa-code"></i>
+                        کد گرافی
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>
 </main>
 
 <footer class="footer">

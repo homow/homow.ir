@@ -1,5 +1,9 @@
 import * as customObserver from '/js/main.js';
 import {TextBoxList} from "/component/text-box-list/text-box-list.js"
+import {CTAx} from "/component/CTA-X/CTA-X.js";
+
+window.customElements.define("text-box-list", TextBoxList);
+window.customElements.define("cta-x", CTAx)
 
 const versionHeader = document.querySelector('.version-header');
 const terminal = document.querySelector('.terminal');
@@ -89,5 +93,3 @@ customObserver.runObserver(versionHeader, customObserver.typingAnimations, {thr:
 customObserver.runObserver(aboutSkills, customObserver.addClassName.bind(null, [[aboutSkills, "about-skills-wrapper-animate"]]), {thr: .2})
 customObserver.runObserver(webStormJsCode, customObserver.addClassName.bind(null, [[webStormCodes, ["show-css", "show-html"]]]), {});
 customObserver.runObserver(noteEditor, showNoteEditor, {})
-
-window.customElements.define("text-box-list", TextBoxList);

@@ -716,6 +716,12 @@
     justify-self: center;
 }
 
+/* call-to-action__CTA-X */
+
+.call-to-action__CTA-X {
+    margin-top: 8rem;
+}
+
 /* responsive */
 
 @media only screen and (max-width: 1700px) {

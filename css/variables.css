@@ -41,6 +41,9 @@ html {
     --inset-shadow: 0 0 5px 0 #1e1f26 inset;
     --box-hover: rgba(0, 0, 0, 0.05);
     --new-box-hover: rgba(0, 0, 0, 0.05);
+    --background__pink: #beb9ec;
+    --background-green: #AEC8A4;
+    --background-red: #C96868;
 
     /* footer */
     --background__footer: linear-gradient(to left, #e0eaff, #c2d4ff);
@@ -67,6 +70,9 @@ html {
     --box-shadow: 0 2px 8px 2px #121318;
     --box-hover: rgba(0, 0, 0, 0.25);
     --new-box-hover: rgba(0, 0, 0, 0.25);
+    --background__pink: #27445D;
+    --background-green: #27391C;
+    --background-red: #491010;
 
     /* footer */
     --background__footer: #2a2d37;
@@ -253,8 +259,30 @@ html.dark .contact-to-me-btn-arrow:hover {
     width: 100%;
 }
 
-/* text center */
+/* cta-x */
+.CTA-X-wrapper {
+    position: relative;
+}
 
+.CTA-X__img-wrapper {
+    margin: 1rem;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.CTA-X__img-wrapper img {
+    width: 100%;
+}
+
+/* custom-form */
+
+custom-form {
+    max-width: 800px;
+    margin: 4rem auto auto auto;
+    display: block;
+}
 
 /* responsive */
 @media only screen and (max-width: 1100px) {
@@ -287,12 +315,17 @@ html.dark .contact-to-me-btn-arrow:hover {
     .playAroundImg {
         width: 15%;
     }
+
+    .center-text1100 {
+        max-width: 100%;
+    }
 }
 
 @media only screen and (max-width: 520px) {
     .primary-title {
         font-size: 58px;
     }
+
     .playAroundImg {
         width: 21%;
     }

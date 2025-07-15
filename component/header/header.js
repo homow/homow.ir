@@ -21,13 +21,13 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
             <a href="/" class="nav-menu__link"><i class="fa-solid fa-house"></i>خانه</a>
         </li>
         <li class="nav-menu__items">
-            <a href="/about-me/" class="nav-menu__link"><i class="fa-solid fa-code"></i>من کی ام؟</a>
+            <a href="/about-me/" class="nav-menu__link"><i class="fa-solid fa-circle-question"></i>من کی ام؟</a>
         </li>
         <li class="nav-menu__items">
             <a href="/contact/" class="nav-menu__link"><i class="fa-solid fa-headset"></i>راه های ارتباطی</a>
         </li> 
         <li class="nav-menu__items">
-            <a href="/about-site/" class="nav-menu__link"><i class="fa-solid fa-circle-info"></i>درباره سایت</a>
+            <a href="/code-graphy/" class="nav-menu__link"><i class="fa-solid fa-code"></i>کد گرافی</a>
         </li>
         <li class="designed-by-homow">
             <a target="_blank" href="https://bioe.ir/homayoun/">Designed with❤️by Homow</a>

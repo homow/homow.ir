@@ -8,9 +8,10 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
             color: #00ff91;
             overflow: hidden;
             font-size: 2.5rem;
+            -webkit-tap-highlight-color: transparent;
         }
 
-        .link {
+        .link, #homow {
             text-decoration: none;
             display: flex;
             align-items: center;
@@ -63,11 +64,11 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
         }
         #homow {
             position: absolute;
-            top: 10%;
+            top: 40px;
             left: 50%;
             transform: translateX(-50%);
-            border-radius: 12px;
-            padding: .4rem .8rem;
+           
+            padding: .8rem 1.2rem;
         }
 
         @keyframes typing {
@@ -93,8 +94,47 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
                 opacity: 1;
             }
         }
+        @media only screen and (max-width: 1000px) {
+            .terminal * {
+                font-size: 2rem;
+            }
+        }
+        @media only screen and (max-width: 780px) {
+            .terminal * {
+                font-size: 1.8rem;
+            }
+        }
+        @media only screen and (max-width: 700px) {
+            * {
+                font-size: 1.8rem;
+                letter-spacing: -3px;
+            }
+        }
+        @media only screen and (max-width: 580px) {
+            .terminal *, * {
+                font-family: cursive;
+                letter-spacing: unset;
+                font-size: 1.4rem;
+            }
+            .fa-solid {
+                font-family: "Font Awesome 6 Free",serif;
+            }
+        }
+        @media only screen and (max-width: 420px) {
+            .terminal *, * {
+                font-size: 1.2rem;
+            }
+            .link {
+                padding: .8rem 1rem;
+            }
+        }
+        @media only screen and (max-width: 350px) {
+            .terminal *, * {
+                font-size: 1rem;
+            }
+        }
     </style>
-<a href="/about-me/" id="homow">who is homow?</a>
+<a target="_blank" href="/about-me/" id="homow">who is homow?</a>
 <div class="terminal">
     <div class="code-line">console.log("404 | not found!");</div>
     <div class="output">→ 404 | not found!</div>

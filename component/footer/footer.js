@@ -15,7 +15,7 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
                 </div>
                 <div class="footer__logo-wrapper">
                     <a href="/">
-                        <img class="footer__logo" src="/asset/logo/homow-logo-1-crop.png" alt="footer-logo" title="footer logo">
+                        <img loading="lazy" class="footer__logo" src="/asset/logo/homow-logo-1-crop.png" alt="footer-logo" title="footer logo">
                     </a>
                 </div>
             </div>
@@ -30,9 +30,9 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
                     <h3>صفحه ها</h3>
                     <ul>
                         <li><a href="/"><i class="fa-solid fa-house"></i>خانه</a></li>
-                        <li><a href="/about-me/"><i class="fa-solid fa-question"></i>من کی ام؟</a></li>
+                        <li><a href="/about-me/"><i class="fa-solid fa-user"></i>من کی ام؟</a></li>
                         <li><a href="/contact/"><i class="fa-solid fa-headset"></i>راه های ارتباطی</a></li>
-                        <li><a href="/code-graphy/"><i class="fa-solid fa-code"></i>کد گرافی</a></li>
+                        <li><a href="/code-graphy/"><i class="fa-solid fa-code"></i>کدگرافی</a></li>
                     </ul>
                 </div>
 
@@ -60,7 +60,7 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
 
             <div class="footer__copyright">
                 <p>© 2025 تمامی حقوق این وبسایت برای <a href="https://homow.ir">homow.ir</a> محفوظ میباشد و فقط قسمت کوچیکی از سایت ایده برداری شده که
-                    در صفحه <a href="/code-graphy/">«کد گرافی»</a> ذکر کرده ام. </p>
+                    در صفحه <a href="/code-graphy/">«کدگرافی»</a> ذکر کرده ام. </p>
                 <p> آزاد برای دیدن، الهام‌ گرفتن و ساختن، نه کپی برداری. لطفاً احترام به حقوق این وبسایت را رعایت کنید و
                     درصورت ایده برداری، مانند من منبع را ذکر کنید.</p>
             </div>

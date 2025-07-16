@@ -219,7 +219,7 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
     <button class="primary-button">Done</button>
 </div>
 <form>
-    <img src="/asset/img/contact/send.png" alt="send picture">
+    <img loading="lazy" src="/asset/img/contact/send.png" alt="send picture">
     <label id="name-label">
         <input class="glass-morphism-box" type="text" name="name" placeholder="اسم" required>
     </label>

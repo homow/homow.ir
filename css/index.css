@@ -386,7 +386,7 @@
     display: flex;
     transition: all 3s ease-in-out;
     flex-direction: column;
-    gap: .5rem;
+    gap: 1.5rem;
 }
 
 .active-text {
@@ -701,8 +701,10 @@
 /* go to about */
 
 .go-to__about-site {
+    margin: 2rem 0;
     padding-top: 1.5rem;
     text-align: center;
+    place-self: center;
 }
 
 .go-to__about-site span {
@@ -713,6 +715,8 @@
 }
 
 .go-to__about-site a {
+    background-color: #000;
+    color: #fff;
     justify-self: center;
 }
 

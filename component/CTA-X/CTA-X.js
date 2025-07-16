@@ -47,6 +47,12 @@ html.dark .CTA-X {
 .CTA-X__content-wrapper a i {
     font-size: 1.5rem;
 }
+.CTA-X>h3 {
+    font-size: 17px;
+    max-width: 900px;
+    margin: 2rem auto 3rem auto;
+    text-align: start;
+}
 @media only screen and (max-width: 480px) {
     .CTA-X a {
         font-size: 1rem;
@@ -79,6 +85,7 @@ html.dark .CTA-X {
 }
 </style>
 <div class="CTA-X">
+    <h3>جهت سفارش پروژه، همکاری یا مشاوره رایگان باهام در ارتباط باش</h3>
     <h2 class="CTA-X__title-wrapper">
         <i class="fa-solid fa-mobile-screen"></i>
         <span>راه های ارتباطی سریع با من:</span>

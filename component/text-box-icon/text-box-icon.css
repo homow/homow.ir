@@ -2,6 +2,11 @@
     text-decoration: underline !important;
 }
 
+a:hover {
+    color: #5e5f64;
+    text-shadow: 0 0 5px #5e5f64;
+}
+
 .text-box-icon {
     border-radius: 12px;
     padding: 16px;

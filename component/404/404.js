@@ -67,7 +67,7 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
             top: 40px;
             left: 50%;
             transform: translateX(-50%);
-           
+            text-align: center;
             padding: .8rem 1.2rem;
         }
 
@@ -112,12 +112,12 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
         }
         @media only screen and (max-width: 580px) {
             .terminal *, * {
-                font-family: cursive;
+                font-family: "dana medium",serif !important;
                 letter-spacing: unset;
                 font-size: 1.4rem;
             }
             .fa-solid {
-                font-family: "Font Awesome 6 Free",serif;
+                font-family: "Font Awesome 6 Free",serif !important;
             }
         }
         @media only screen and (max-width: 420px) {

@@ -55,6 +55,7 @@ export const createTitleTextImg = data => {
             const imgWrapperSub = document.createElement("div");
             const imgTag = document.createElement("img");
             imgTag.src = `${imgSrc}`;
+            imgTag.loading = "lazy";
             imgTag.alt = catchAlt(imgSrc);
             imgTag.className = "zoom-in-this-img";
             imgTag.dataset.zoomSrc = `${imgSrc}`;

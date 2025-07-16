@@ -53,6 +53,10 @@ a {
     transition: transform 0.3s ease, margin 0.3s ease;
     font-size: 14px;
 }
+p {
+    margin: 1rem 0 2rem 0;
+    text-align: center;
+}
 .contact-to-me-btn-arrow:hover i {
     transform: translateX(-4px);
 }
@@ -70,6 +74,7 @@ html.dark .contact-to-me-btn-arrow:hover {
     }
 }
 </style>
+<p>جهت همکاری، سفارش پروژه یا مشاوره رایگان باهام در ارتباط باش.</p>
 <div class="CTA-phone center-flex-item ">
     <a href="tel:+989036364078" class="contact-to-me-btn primary-button"><i class="fa-solid fa-phone-volume"></i>تماس مستقیم 1</a>
     <a href="tel:+989210629512" class="contact-to-me-btn primary-button"><i class="fa-solid fa-phone-volume"></i>تماس مستقیم 2</a>

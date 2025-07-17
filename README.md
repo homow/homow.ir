@@ -4,7 +4,7 @@ https://homow.ir
 
 **Developer:** homayoun sharifi  | همایون شریفی  
 **Website:** https://homow.ir  
-**Repository:** https://github.com/yourusername/homow.ir
+**Repository:** https://github.com/homow/homow.ir
 
 ## Project Overview
 

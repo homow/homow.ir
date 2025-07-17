@@ -48,6 +48,17 @@ The site is deployed via GitHub Pages and mapped to the custom domain `https://h
 - SEO optimized via `robots.txt` and `sitemap.xml`
 - Responsive, client-side design with no back-end dependencies
 
-## Licensing
+## License
 
-No specific license has been applied to this project. All rights reserved to the developer.
+This website and all its content, including design, code, text, images, and animations, are the intellectual property of homow.ir
+Any unauthorized copying, distribution, reproduction, or use of any part of this website is strictly prohibited and will be subject to legal action.
+
+©2025 homow.ir All rights reserved.
+
+
+مجوز (License)
+
+این وبسایت و تمام محتوای آن، شامل طراحی، کدها، متن‌ها، تصاویر و انیمیشن‌ها، متعلق به homow.ir می‌باشد.
+هرگونه کپی‌برداری، انتشار، بازتولید یا استفاده غیرمجاز از بخش یا کل این وبسایت ممنوع بوده و پیگرد قانونی خواهد داشت.
+
+©1404 homow.ir تمامی حقوق محفوظ است.

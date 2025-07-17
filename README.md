@@ -2,7 +2,7 @@ https://homow.ir
 
 # homow.ir – Personal Portfolio Website
 
-**Developer:** homayoun sharifi| همایون شریفی  
+**Developer:** homayoun sharifi  | همایون شریفی  
 **Website:** https://homow.ir  
 **Repository:** https://github.com/yourusername/homow.ir
 

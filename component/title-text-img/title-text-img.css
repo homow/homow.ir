@@ -1,6 +1,8 @@
 .title-text-img__all-text-wrapper {
     border-radius: 12px;
     padding: 2rem 1rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title-text-img-sub-wrapper:not(:first-child) {

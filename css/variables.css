@@ -147,6 +147,9 @@ body {
 /* buttons */
 
 .primary-button {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
     color: var(--primary__white);
     background-color: var(--primary__black);
     border-radius: 4px;
@@ -168,6 +171,8 @@ body {
     border: 1px solid rgba(34, 34, 34, .1);
     border-radius: 10px;
     max-width: max-content;
+    margin-left: auto;
+    margin-right: auto;
     padding: 6px 10px;
     background-color: var(--background__version-header);
     font-weight: 500;
@@ -198,6 +203,9 @@ body {
     border-radius: 8px;
     transition: all 0.3s ease;
     direction: rtl;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
     background-color: transparent;
 }
 
@@ -291,6 +299,8 @@ custom-form {
         text-align: center;
         place-self: center;
         line-height: 30px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 

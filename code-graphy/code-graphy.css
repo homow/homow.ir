@@ -157,6 +157,8 @@ html.dark .about-site__tech span {
     margin-top: 1rem;
     width: 60%;
     place-self: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about-site__bottom-img img {

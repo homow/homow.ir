@@ -39,6 +39,9 @@ a {
     border-radius: 8px;
     transition: all 0.3s ease;
     direction: rtl;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
     background-color: transparent;
 }
 .contact-to-me-btn-arrow:hover {

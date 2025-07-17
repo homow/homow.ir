@@ -437,6 +437,7 @@
     max-width: 800px;
     place-self: center;
     text-align: center;
+    margin: auto;
 }
 
 .about-skills__title-wrapper h4 {
@@ -757,6 +758,7 @@
     .top-main__title {
         margin-top: 2rem;
     }
+
     .top-main__img {
         max-width: 550px;
     }
@@ -859,6 +861,10 @@
         max-width: 400px !important;
         display: block;
         justify-self: center;
+    }
+
+    .about-skills__title-wrapper {
+        margin-top: 5rem;
     }
 }
 

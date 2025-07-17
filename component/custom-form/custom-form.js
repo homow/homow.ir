@@ -50,6 +50,8 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
     max-width: 50%;
     justify-self: center;
     line-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .form-status {

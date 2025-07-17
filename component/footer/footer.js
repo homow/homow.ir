@@ -101,37 +101,15 @@ html {
     align-items: center;
     gap: .4rem;
 }
-
-.fa-phone-alt {
-    color: #bf1922;
-}
-
-.fa-whatsapp {
-    color: #00B489;
-}
-
-.fa-envelope {
-    color: #d35a35;
-}
-
-.fa-instagram {
-    color: #B13BFF;
-}
-
-.fa-telegram {
-    color: #0088cc;
-}
-
 .footer__contact i {
     font-size: 2rem;
     margin: 0 0.5rem;
     transition: transform ease;
+    color: #096d9d;
 }
-
 .footer__contact i:hover {
     transform: scale(1.08);
 }
-
 .footer__copyright {
     text-align: center;
     margin-top: 40px;
@@ -139,25 +117,20 @@ html {
     border-top: var(--border__footer);
     padding-top: 20px;
 }
-
 .footer__copyright p:first-child {
     margin-bottom: .8rem;
 }
-
 .footer__copyright p:last-child {
     font-weight: 600;
 }
-
 .footer__copyright a, .footer__info a {
     font-family: 'dana extrabold', serif;
     text-decoration: underline;
 }
-
 .footer__copyright a:hover, .footer__links a:hover, .footer__info a:hover {
     color: #5e5f64;
     text-shadow: 0 0 5px #5e5f64;
 }
-
 /* footer-responsive */
 
 @media only screen and (max-width: 990px) {
@@ -179,7 +152,6 @@ html {
         max-width: 95%;
     }
 }
-
 @media only screen and (max-width: 500px) {
     .footer-container {
         justify-content: center;
@@ -196,7 +168,6 @@ html {
         max-width: 260px;
     }
 }
-
 @media only screen and (max-width: 350px) {
     .footer__title {
         max-width: 160px;
@@ -207,7 +178,6 @@ html {
         font-size: 0.85rem;
     }
 }
-
 @media only screen and (max-width: 300px) {
     .footer__icon-wrapper {
         gap: 0;
@@ -252,9 +222,6 @@ html {
                         <a href="https://www.instagram.com/homow_dev" title="اینستاگرام">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
-                        <a href="https://wa.me/989210629512" target="_blank" title="واتساپ">
-                            <i class="fab fa-whatsapp"></i>
-                        </a>
                         <a href="tel:+989036364078" title="تماس">
                             <i class="fas fa-phone-alt"></i>
                         </a>
@@ -263,6 +230,9 @@ html {
                         </a>
                         <a href="mailto:homow_dev@proton.me" title="ایمیل">
                             <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://wa.me/989210629512" target="_blank" title="واتساپ">
+                            <i class="fab fa-whatsapp"></i>
                         </a>
                     </div>
                 </div>

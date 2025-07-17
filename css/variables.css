@@ -18,22 +18,23 @@ html {
     /* --- colors --- */
 
     /* header */
-    --gradient__header: radial-gradient(101.4% 61.3% at 12.4% 100%, #60B5FF 0%, rgb(189, 204, 255) 86.29293355855856%, #dfe9ff 100%);
+    --gradient__header: radial-gradient(101.4% 61.3% at 12.4% 100%, #b9dfff 0%, #dfe9ff 100%);
     --primary__balck-header: #000;
     --primary__gery-header: #000;
     --background__version-header: rgb(235 235 235 / 40%);
     --nav-menu__bg-color: #ebefff;
     --nav-menu__hover-new__bc: #343538;
-    --nav-menu__hover-new__color: #fff;
 
     /* hover  */
+    --nav-menu__hover-new__color: #5d5a5a;
     --primary__hover: #343538;
+    --primary-btn__hover-color: #fff;
 
     /* main */
     --background: #dfe9ff;
-    --gradient__main: radial-gradient(101.4% 61.3% at 12.4% 0, #60B5FF 0%, rgb(189, 204, 255) 86.29293355855856%, #dfe9ff 100%);
+    --gradient__main: radial-gradient(101.4% 61.3% at 12.4% 0, #b9dfff 0%, #dfe9ff 100%);
     --primary__gery: #5e5f64;
-    --primary__black: #000;
+    --primary__black: #111111;
     --primary__white: #fff;
     --text__color: #272626;
     --green__code: rgba(0, 255, 145, .8);
@@ -43,7 +44,7 @@ html {
     --inset-shadow: 0 0 5px 0 #1e1f26 inset;
     --box-hover: rgba(0, 0, 0, 0.05);
     --new-box-hover: rgba(0, 0, 0, 0.05);
-    --background__pink: #beb9ec;
+    --background__pink: #cdc9ef;
     --background-green: #AEC8A4;
     --background-red: #e69a9a;
 
@@ -59,12 +60,15 @@ html {
     --primary__gery-header: #ccc;
     --background__version-header: rgb(235 235 235 / 78%);
     --nav-menu__bg-color: #000;
-    --nav-menu__hover-new__bc: #343538;
-    --nav-menu__hover-new__color: #ccc;
+    --nav-menu__hover-new__bc: #b4b6bb;
+    --nav-menu__hover-new__color: #858383;
+
+    /* hover */
+    --primary-btn__hover-color: #000;
 
     /* main */
-    --gradient__header: radial-gradient(101.4% 61.3% at 12.40% 0, #1e1f26 100%, rgb(189, 204, 255) 200%, rgb(235, 239, 255) 100%);
-    --gradient__main: radial-gradient(101.4% 61.3% at 12.40% 100%, #1e1f26 100%, rgb(189, 204, 255) 200%, rgb(235, 239, 255) 100%);
+    --gradient__header: radial-gradient(101.4% 61.3% at 12.40% 0, #1e1f26 100%, rgb(73 76 88) 200%, rgb(51 54 64) 100%);
+    --gradient__main: radial-gradient(101.4% 61.3% at 12.40% 100%, #1e1f26 100%, rgb(73 76 88) 200%, rgb(51 54 64) 100%);
     --background: #1e1f26;
     --primary__black: #fff;
     --primary__white: rgba(0, 0, 0, 0.93);
@@ -148,6 +152,20 @@ body {
     padding: 60px 0 30px 0;
 }
 
+/* fast delivery */
+
+.fast-delivery {
+    margin-top: 6rem;
+}
+
+.fast-delivery__title {
+    text-align: center;
+}
+
+.fast-delivery__title:first-child {
+    margin-bottom: 2rem;
+}
+
 /* buttons */
 
 .primary-button {
@@ -167,9 +185,10 @@ body {
 }
 
 .primary-button:hover {
+    color: var(--primary-btn__hover-color);
     background-color: var(--nav-menu__hover-new__bc);
-    color: var(--nav-menu__hover-new__color);
 }
+
 .text-box-grey {
     color: #000;
     border: 1px solid rgba(34, 34, 34, .1);
@@ -272,6 +291,7 @@ html.dark .contact-to-me-btn-arrow:hover {
 }
 
 /* cta-x */
+
 .CTA-X-wrapper {
     position: relative;
 }
@@ -297,6 +317,13 @@ custom-form {
 }
 
 /* responsive */
+
+@media only screen and (min-height: 530px) and (max-width: 1200px) {
+    .fast-delivery__title-wrapper {
+        margin-bottom: 12rem;
+    }
+}
+
 @media only screen and (max-width: 1100px) {
     .center-text1100 {
         max-width: 60%;
@@ -308,16 +335,18 @@ custom-form {
     }
 }
 
+@media only screen and (max-width: 1000px) {
+    .primary-title {
+        font-size: 68px;
+    }
+}
+
 @media only screen and (max-width: 680px) {
     .center-text680 {
         max-width: 60%;
         place-self: center;
-    }
-}
-
-@media only screen and (max-width: 1000px) {
-    .primary-title {
-        font-size: 68px;
+        margin-left: auto !important;
+        margin-right: auto !important;
     }
 }
 
@@ -333,6 +362,10 @@ custom-form {
     .center-text1100 {
         max-width: 100%;
     }
+
+    .fast-delivery__title {
+
+    }
 }
 
 @media only screen and (max-width: 520px) {
@@ -342,6 +375,11 @@ custom-form {
 
     .playAroundImg {
         width: 21%;
+    }
+
+    .fast-delivery__title-wrapper {
+        font-size: .85rem;
+        margin-bottom: 0;
     }
 }
 

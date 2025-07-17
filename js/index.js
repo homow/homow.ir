@@ -1,9 +1,11 @@
 import * as customObserver from '/js/main.js';
 import {TextBoxList} from "/component/text-box-list/text-box-list.js"
 import {CTAx} from "/component/CTA-X/CTA-X.js";
+import {CustomForm} from "/component/custom-form/custom-form.js";
 
 window.customElements.define("text-box-list", TextBoxList);
 window.customElements.define("cta-x", CTAx)
+window.customElements.define("custom-form", CustomForm)
 
 const versionHeader = document.querySelector('.version-header');
 const terminal = document.querySelector('.terminal');

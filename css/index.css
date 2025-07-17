@@ -54,6 +54,22 @@
     opacity: .8;
 }
 
+.cta-index-header {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.cta-index-header a {
+    margin: 0;
+}
+
+html.dark .cta-index-header a:last-child {
+    color: #fff;
+}
+
 /* right base header */
 
 .right__top-main {
@@ -451,7 +467,7 @@
 
 .about-skills__list {
     max-width: 800px;
-    margin: 7rem auto;
+    margin: 6rem auto;
 }
 
 /* bottom-main */
@@ -721,6 +737,11 @@
     justify-self: center;
 }
 
+.go-to__about-site a:hover {
+    color: #fff;
+    background-color: #343538;
+}
+
 /* call-to-action__CTA-X */
 
 .call-to-action__CTA-X {
@@ -784,6 +805,15 @@
     .wrapper__top-main {
         gap: 6rem;
         flex-direction: column-reverse;
+    }
+
+    .cta-index-header {
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .cta-index-header a {
+        flex-basis: 50%;
     }
 
     .version-header {

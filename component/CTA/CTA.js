@@ -24,7 +24,8 @@ a {
     gap: .5rem;
 }
 .primary-button:hover {
-    background-color: var(--primary__hover) !important;
+    color: var(--primary-btn__hover-color);
+    background-color: var(--nav-menu__hover-new__bc);
 }
 .contact-to-me-btn-arrow {
     margin-top: 2.4rem;
@@ -79,8 +80,8 @@ html.dark .contact-to-me-btn-arrow:hover {
 </style>
 <p>جهت همکاری، سفارش پروژه یا مشاوره رایگان باهام در ارتباط باش.</p>
 <div class="CTA-phone center-flex-item ">
-    <a href="tel:+989036364078" class="contact-to-me-btn primary-button"><i class="fa-solid fa-phone-volume"></i>تماس مستقیم 1</a>
-    <a href="tel:+989210629512" class="contact-to-me-btn primary-button"><i class="fa-solid fa-phone-volume"></i>تماس مستقیم 2</a>
+    <a href="tel:+989036364078" class="contact-to-me-btn primary-button"><i class="fa-solid fa-phone-volume"></i>تماس مستقیم</a>
+<!--    <a href="tel:+989210629512" class="contact-to-me-btn primary-button"><i class="fa-solid fa-phone-volume"></i>تماس مستقیم 2</a>-->
 </div>
 <a href="/contact/" class="CTA-more-contact contact-to-me-btn-arrow">
     <i class="fa-solid fa-headphones"></i>

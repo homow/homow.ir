@@ -8,8 +8,8 @@ const codeGraphyData = [
             "من فقط و فقط همین قسمت رو ایده گرفتم، تمام سایتم بدون کپی و بدون طراحی از روی هیچ طرح قبلی و فقط با ذهن و خلاقیت خودم بوده"
         ],
         imgData: [
-            "/asset/img/about-site/homow-site.png",
-            "/asset/img/about-site/SaaSkit.png"
+            "/asset/img/about-site/homow-site.webp",
+            "/asset/img/about-site/SaaSkit.webp"
         ],
         textSub: "لازم به ذکره که این وبسایت برای توسعه دهندگان رایگان و آزاده"
     },
@@ -22,7 +22,7 @@ const codeGraphyData = [
             "با این ساختار، هرکسی که وارد این پروژه بشه به راحتی میتونه پروژه رو درک بکنه، جزئیات و ساختار با نام های قابل فهم و واضح"
         ],
         imgData: [
-            "/asset/img/about-site/template.png",
+            "/asset/img/about-site/template.webp",
         ],
         textSub: "ساختار از مهمترین عامل های پروژه هست."
     },
@@ -36,7 +36,7 @@ const codeGraphyData = [
             "نتیجه وسواس من این شد که هر کاربری با هر دیوایسی، میتونه در تم دارک و لایت این وبسایت تجربه راحتی داشته باشه"
         ],
         imgData: [
-            "/asset/img/about-site/responsive-code.png"
+            "/asset/img/about-site/responsive-code.webp"
         ],
         textSub: "وسواس من رو مشاهده میکنید"
     },
@@ -49,8 +49,8 @@ const codeGraphyData = [
             "بیش از ۹۰٪ انیمیشن‌ها با کمک IntersectionObserver که کاستومش کردم و requestAnimationFrame اجرا می‌شن؛ یعنی اجرای دقیق، به‌صرفه و بهینه بر اساس موقعیت واقعی عناصر در صفحه، نه زمان‌بندی کورکورانه."
         ],
         imgData: [
-            "/asset/img/about-site/main-JS.png",
-            "/asset/img/about-site/index-JS.png"
+            "/asset/img/about-site/main-JS.webp",
+            "/asset/img/about-site/index-JS.webp"
         ],
         textSub: "این فرمت بصورت کاملا ماژولار هست"
     },
@@ -63,7 +63,7 @@ const codeGraphyData = [
             "در تصاویر زیر میبینید که من چطور توسعه دادم این قسمت هارو، فقط کافیه که طبق فایل HTML، اونارو با custom-element اضافه کنید به اول و آخر و هر صفحه"
         ],
         imgData: [
-            "/asset/img/about-site/footer-header-code.png"
+            "/asset/img/about-site/footer-header-code.webp"
         ],
         textSub: "این قابلیت یکم پیچیده تر از ساختار ماژولار هست"
     },
@@ -77,7 +77,7 @@ const codeGraphyData = [
             "این ساختار ماژولار یک دیتا میگیره طبق قسمت راست تصویر و یک template کامل برمیگردونه"
         ],
         imgData: [
-            "/asset/img/about-site/text-box-icon-code.png"
+            "/asset/img/about-site/text-box-icon-code.webp"
         ],
         textSub: "بدون درگیری مستقیم با DOM و مرورگر کاربر"
     },
@@ -92,8 +92,8 @@ const codeGraphyData = [
             "من یک <a href='/not-contact/' class='link-hover-style' target='_blank'>«صفحه 404»</a> هم طراحی کردم که شاید گذرتون بهش نخوره، پس لینکش رو همینجا گذاشتم"
         ],
         imgData: [
-            "/asset/img/about-site/git-github.png",
-            "/asset/img/about-site/webstorm.png"
+            "/asset/img/about-site/git-github.webp",
+            "/asset/img/about-site/webstorm.webp"
         ],
         textSub: "<a href='https://github.com/homow' class='link-hover-style' target='_blank'>«صفحه گیت هاب من»</a>  رو بیشتر بررسی کنید "
     },
@@ -106,7 +106,7 @@ const codeGraphyData = [
             "اما توی این راه تنهای تنها نبودم و دوتا دوست با نام های <a href='https://chatgpt.com/' class='link-hover-style' target='_blank'>«ChatGPT»</a> و <a href='https://copilot.microsoft.com/' class='link-hover-style' target='_blank'>«Microsoft Copilot»</a> هم کنارم بودن"
         ],
         imgData: [
-            "/asset/img/about-site/chatGPT-Copilot.png",
+            "/asset/img/about-site/chatGPT-Copilot.webp",
         ],
         textSub: "تصاویر وبسایتم رو اونا برام ساختن"
     },
@@ -119,7 +119,7 @@ const codeGraphyData = [
             "با اینکه دوستش دارم، ولی مطمئنم هنوز جا برای بهتر شدن داره، اگه نظری یا انتقادی داشتی حتماً برام تو فرم زیر بنویس، پیام تک‌تک‌تون رو می‌خونم و جدی می‌گیرم."
         ],
         imgData: [
-            "/asset/img/about-site/my-home.png",
+            "/asset/img/about-site/my-home.webp",
         ],
         textSub: "منتظر نقدها و نظراتت هستم"
     }

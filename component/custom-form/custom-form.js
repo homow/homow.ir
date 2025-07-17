@@ -210,7 +210,7 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
 </style>
 <div id="custom-form">
 <div class="img-form">
-    <img src="/asset/img/contact/mail.png" alt="mail picture">
+    <img src="/asset/img/contact/mail.webp" alt="mail picture">
 </div>
 <p>
     <i style="color:#EB5B00;" class="fa-solid fa-envelopes-bulk"></i>
@@ -221,12 +221,15 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
     <button class="primary-button">Done</button>
 </div>
 <form>
-    <img src="/asset/img/contact/send.png" alt="send picture">
+    <img src="/asset/img/contact/send.webp" alt="send picture">
     <label id="name-label">
         <input class="glass-morphism-box" type="text" name="name" placeholder="اسم" required>
     </label>
     <label id="email-label">
         <input class="glass-morphism-box" type="email" name="email" placeholder="ایمیل" required>
+    </label>
+    <label id="number-label">
+        <input class="glass-morphism-box" type="tel" dir="rtl" name="tel" placeholder="شماره تلفن(اختیاری)">
     </label>
     <label id="textarea-label">
         <textarea class="glass-morphism-box" name="message" placeholder="پیام" required></textarea>

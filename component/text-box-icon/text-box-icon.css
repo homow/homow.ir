@@ -2,7 +2,7 @@
     text-decoration: underline !important;
 }
 
-a:hover {
+.text-box-icon a:hover {
     color: #5e5f64;
     text-shadow: 0 0 5px #5e5f64;
 }

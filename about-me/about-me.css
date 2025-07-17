@@ -70,7 +70,7 @@
 .skills-wrapper {
     position: relative;
     box-shadow: var(--box-shadow);
-    padding: 1.4rem;
+    padding: 1.4rem 1.4rem 8rem 1.4rem;
     border-radius: 4px;
     z-index: 20;
 }

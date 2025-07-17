@@ -79,10 +79,8 @@ li {
     background-color: var(--primary__hover) !important;
 }
 .nav-menu__link {
-    background-color: var(--primary__black);
-    color: var(--primary__white);
-    border-radius: 4px;
-    padding: 0.5rem 1rem;
+    color: var(--primary__black);
+    padding: 0.3rem;
     display: flex;
     align-items: center;
     gap: .3rem;
@@ -93,7 +91,6 @@ li {
     align-items: baseline;
 }
 .nav-menu__link:hover {
-    background-color: var(--nav-menu__hover-new__bc);
     color: var(--nav-menu__hover-new__color);
 }
 

@@ -35,7 +35,7 @@
 
 .call-action-wrapper p {
     justify-self: center;
-    margin: 8rem 0 3rem 0;
+    margin: 8rem auto 3rem auto;
 }
 
 /* middle-main */

@@ -35,9 +35,11 @@
     place-self: center;
 }
 
-.title-text__img-wrapper {
+.title-text__img-wrapper>div {
     width: 100%;
     margin-top: 3rem;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 .title-text__img-wrapper div, .title-text-img__all-text-wrapper {

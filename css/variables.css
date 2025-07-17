@@ -167,9 +167,9 @@ body {
 }
 
 .primary-button:hover {
-    background-color: var(--primary__hover) !important;
+    background-color: var(--nav-menu__hover-new__bc);
+    color: var(--nav-menu__hover-new__color);
 }
-
 .text-box-grey {
     color: #000;
     border: 1px solid rgba(34, 34, 34, .1);

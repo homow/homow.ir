@@ -90,6 +90,6 @@ customObserver.runObserver(versionHeader, customObserver.typingAnimations, {thr:
     await customObserver.runObserver(buttonAnimate, customObserver.typingAnimations, {advanced: customObserver.addClassName.bind(null, [[buttonEvent, "active"]]), delay: 3000, once: true, thr: 1});
 })();
 
-customObserver.runObserver(aboutSkills, customObserver.addClassName.bind(null, [[aboutSkills, "about-skills-wrapper-animate"]]), {thr: .2})
+customObserver.runObserver(aboutSkills, customObserver.addClassName.bind(null, [[aboutSkills, "about-skills-wrapper-animate"]]), {thr: .1})
 customObserver.runObserver(webStormJsCode, customObserver.addClassName.bind(null, [[webStormCodes, ["show-css", "show-html"]]]), {});
 customObserver.runObserver(noteEditor, showNoteEditor, {})

@@ -1,10 +1,220 @@
-import {createTagLink} from "/component/main/createTagLink.js";
-
-const style = createTagLink("/component/footer/footer.css")
-
 const template = document.createElement('template');
 
-template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+template.innerHTML = `
+<style>
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.footer__info-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.footer__info {
+    flex-basis: 50%;
+}
+
+.footer__info p:last-child {
+    margin-top: 1rem;
+}
+
+.footer__title {
+    font-family: var(--bold-font), serif;
+    margin-bottom: 1rem;
+}
+
+.footer__logo-wrapper {
+    max-width: 340px;
+}
+
+.footer__logo-wrapper a {
+    width: 100%;
+}
+
+.footer__logo {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    border-top: var(--border__footer);
+    padding-top: 2rem;
+}
+
+.my-footer-wrapper h3 {
+    font-family: var(--bold-font), serif;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.footer__about p {
+    max-width: 470px;
+}
+
+.footer__links a {
+    display: flex;
+    gap: .4rem;
+    align-items: baseline;
+}
+
+.footer__links h3 {
+    text-align: right;
+}
+
+.my-footer-wrapper p,
+.my-footer-wrapper a {
+    font-size: 0.95rem;
+    text-decoration: none;
+    line-height: 1.8;
+}
+
+.my-footer-wrapper a {
+    color: var(--footer__link);
+}
+
+.my-footer-wrapper ul {
+    padding: 0;
+    list-style: none;
+}
+
+.my-footer-wrapper ul li {
+    margin-bottom: 8px;
+}
+
+.footer__icon-wrapper {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+
+.fa-phone-alt {
+    color: #bf1922;
+}
+
+.fa-whatsapp {
+    color: #00B489;
+}
+
+.fa-envelope {
+    color: #d35a35;
+}
+
+.fa-instagram {
+    color: #B13BFF;
+}
+
+.fa-telegram {
+    color: #0088cc;
+}
+
+.footer__contact i {
+    font-size: 2rem;
+    margin: 0 0.5rem;
+    transition: transform ease;
+}
+
+.footer__contact i:hover {
+    transform: scale(1.08);
+}
+
+.footer__copyright {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.8rem;
+    border-top: var(--border__footer);
+    padding-top: 20px;
+}
+
+.footer__copyright p:first-child {
+    margin-bottom: .8rem;
+}
+
+.footer__copyright p:last-child {
+    font-weight: 600;
+}
+
+.footer__copyright a, .footer__info a {
+    font-family: 'dana extrabold', serif;
+    text-decoration: underline;
+}
+
+.footer__copyright a:hover, .footer__links a:hover, .footer__info a:hover {
+    color: #5e5f64;
+    text-shadow: 0 0 5px #5e5f64;
+}
+
+/* footer-responsive */
+
+@media only screen and (max-width: 990px) {
+    .footer__info-wrapper {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .footer__info {
+        text-align: center;
+    }
+
+    .footer__logo-wrapper {
+        max-width: 300px;
+    }
+
+    .footer__info {
+        max-width: 95%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .footer-container {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer__about {
+        max-width: 95%;
+    }
+
+    .footer__logo-wrapper {
+        max-width: 260px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .footer__title {
+        max-width: 160px;
+        place-self: center;
+    }
+
+    .my-footer-wrapper p, .my-footer-wrapper a {
+        font-size: 0.85rem;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .footer__icon-wrapper {
+        gap: 0;
+    }
+}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
 <div class="my-footer-wrapper">
 <div class="footer__info-wrapper">
                 <div class="footer__info">
@@ -15,7 +225,7 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
                 </div>
                 <div class="footer__logo-wrapper">
                     <a href="/">
-                        <img loading="lazy" class="footer__logo" src="/asset/logo/homow-logo-1-crop.png" alt="footer-logo" title="footer logo">
+                        <img class="footer__logo" src="/asset/logo/homow-logo-1-crop.png" alt="footer-logo" title="footer logo">
                     </a>
                 </div>
             </div>
@@ -70,7 +280,6 @@ class Footer extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({mode: "open"});
-        this.shadowRoot.appendChild(style)
         this.shadowRoot.appendChild(template.content.cloneNode(true));
     }
 }

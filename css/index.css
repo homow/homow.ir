@@ -754,6 +754,12 @@
     }
 }
 
+@media only screen and (min-width: 1400px) {
+    .text-box-grey-index {
+        margin: 0 !important;
+    }
+}
+
 @media only screen and (max-width: 1400px) {
     .top-main__title {
         margin-top: 2rem;
@@ -769,6 +775,10 @@
 
     .top-main__img-2 {
         bottom: 0;
+    }
+
+    .about-skills {
+        margin-top: 2rem;
     }
 
     .wrapper__top-main {

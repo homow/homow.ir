@@ -23,6 +23,8 @@ html {
     --primary__gery-header: #000;
     --background__version-header: rgb(235 235 235 / 40%);
     --nav-menu__bg-color: #ebefff;
+    --nav-menu__hover-new__bc: #343538;
+    --nav-menu__hover-new__color: #fff;
 
     /* hover  */
     --primary__hover: #343538;
@@ -57,6 +59,8 @@ html {
     --primary__gery-header: #ccc;
     --background__version-header: rgb(235 235 235 / 78%);
     --nav-menu__bg-color: #000;
+    --nav-menu__hover-new__bc: #343538;
+    --nav-menu__hover-new__color: #ccc;
 
     /* main */
     --gradient__header: radial-gradient(101.4% 61.3% at 12.40% 0, #1e1f26 100%, rgb(189, 204, 255) 200%, rgb(235, 239, 255) 100%);

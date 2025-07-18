@@ -47,6 +47,7 @@ html {
     --background__pink: #cdc9ef;
     --background-green: #AEC8A4;
     --background-red: #e69a9a;
+    --go-to__about-site-bg: #3f7a7a;
 
     /* footer */
     --background__footer: linear-gradient(to left, #e0eaff, #c2d4ff);
@@ -81,6 +82,7 @@ html {
     --background__pink: #27445D;
     --background-green: #27391C;
     --background-red: #491010;
+    --go-to__about-site-bg: darkslategrey;
 
     /* footer */
     --background__footer: #2a2d37;
@@ -160,6 +162,9 @@ body {
 
 .fast-delivery__title {
     text-align: center;
+    max-width: 46%;
+    line-height: 36px;
+    margin: 0 auto;
 }
 
 .fast-delivery__title:first-child {
@@ -333,11 +338,20 @@ custom-form {
         margin-left: auto;
         margin-right: auto;
     }
+    .fast-delivery__title {
+        max-width: 70%;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
     .primary-title {
         font-size: 68px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .fast-delivery__title {
+        max-width: 80%;
     }
 }
 
@@ -347,6 +361,9 @@ custom-form {
         place-self: center;
         margin-left: auto !important;
         margin-right: auto !important;
+    }
+    .fast-delivery__title {
+        max-width: 100%;
     }
 }
 
@@ -429,5 +446,11 @@ custom-form {
 
     .center-text440 {
         max-width: 80%;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .primary-title {
+        font-size: 32px;
     }
 }

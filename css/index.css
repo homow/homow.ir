@@ -718,10 +718,13 @@ html.dark .cta-index-header a:last-child {
 /* go to about */
 
 .go-to__about-site {
-    margin: 2rem 0;
-    padding-top: 1.5rem;
     text-align: center;
     place-self: center;
+    background-color: darkslategrey;
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 2rem auto;
+    color: #fff;
 }
 
 .go-to__about-site span {
@@ -732,7 +735,6 @@ html.dark .cta-index-header a:last-child {
 }
 
 .go-to__about-site a {
-    background-color: #000;
     color: #fff;
     justify-self: center;
 }
@@ -1011,6 +1013,9 @@ html.dark .cta-index-header a:last-child {
 }
 
 @media only screen and (max-width: 380px) {
+    .cta-index-header {
+        flex-direction: column-reverse;
+    }
     .top-main__image {
         max-width: 260px;
     }
@@ -1071,6 +1076,10 @@ html.dark .cta-index-header a:last-child {
 }
 
 @media only screen and (max-width: 350px) {
+    .top-main__text {
+        font-size: 16px;
+        font-weight: 500;
+    }
     .code-css {
         left: 21%;
     }

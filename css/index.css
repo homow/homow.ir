@@ -732,6 +732,8 @@ html.dark .cta-index-header a:last-child {
     display: block;
     text-align: center;
     justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .go-to__about-site a {

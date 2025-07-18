@@ -112,10 +112,38 @@ html.dark .CTA-X {
         display: unset;
     }
     .CTA-X__content-wrapper {
+        gap: 1rem;
         grid-template-columns: repeat(1, 1fr);
     }
     .CTA-X__content-wrapper a, .CTA-X__title-wrapper, .CTA-X>h3 {
         text-align: start;
+    }
+    .CTA-X__social-items-links {
+        order: 99;
+    }
+    .tel-port {
+        order: 3;
+    }
+    .whats {
+        order: 5;
+    }
+    .tel-chat {
+        order: 2;        
+    }
+    .phone1 {
+        order: 6;
+    }
+    .instagram {
+        order: 1;
+    }
+    .phone2 {
+        order: 7;
+    }
+    .mail {
+        order: 4;
+    }
+    .more {
+        order: 8;
     }
 }
 </style>
@@ -126,56 +154,57 @@ html.dark .CTA-X {
         <span>راه های ارتباطی سریع با من</span>
     </h2>
     <div class="CTA-X__content-wrapper">
-        <a href="https://t.me/HomowDev">
-            <span>
-                <i style="color:#0088cc;" class="fa-brands fa-telegram"></i>
-                چنل تلگرام:
-            </span>
-            HomowDev@
-        </a>
-        <a href="https://wa.me/989210629512">
-            <span>
-                <i style="color:#00897B;" class="fa-brands fa-whatsapp"></i>
-                صفحه واتساپ:
-            </span>
-            9512 062 921 98+
-        </a>
-        <a href="https://t.me/homow_dev">
-            <span>
-                <i style="color:#0088cc;" class="fa-brands fa-telegram"></i>
-                صفحه تلگرام:
-            </span>
-            homow_dev@
-        </a>
-        <a href="tel:+989036364078">
-            <span>
-                <i style="color:#00897B;" class="fa-solid fa-phone-volume"></i>
-                شماره تماس اول:
-            </span>
-            4078 636 903 98+
-        </a>
-        <a href="https://www.instagram.com/homow_dev">
+        <a href="https://www.instagram.com/homow_dev" class="CTA-X__social-items-links instagram">
             <span>
                 <i style="color:#0088cc;" class="fa-brands fa-instagram"></i>
                 اینستاگرام من:
             </span>
             homow_dev@
         </a>
-        <a href="tel:+989210629512">
+        <a href="https://wa.me/989210629512" class="CTA-X__social-items-links whats">
+            <span>
+                <i style="color:#00897B;" class="fa-brands fa-whatsapp"></i>
+                صفحه واتساپ:
+            </span>
+            9512 062 921 98+
+        </a>
+        <a href="https://t.me/homow_dev" class="CTA-X__social-items-links tel-chat">
+            <span>
+                <i style="color:#0088cc;" class="fa-brands fa-telegram"></i>
+                صفحه تلگرام:
+            </span>
+            homow_dev@
+        </a>
+        <a href="tel:+989036364078" class="CTA-X__social-items-links phone1">
+            <span>
+                <i style="color:#00897B;" class="fa-solid fa-phone-volume"></i>
+                شماره تماس اول:
+            </span>
+            4078 636 903 98+
+        </a>
+        <a href="https://t.me/homow_portfolio" class="CTA-X__social-items-links tel-port">
+            <span>
+                <i style="color:#0088cc;" class="fa-brands fa-telegram"></i>
+                چنل نمونه کار:
+            </span>
+            homow_portfolio@
+        </a>
+        
+        <a href="tel:+989210629512" class="CTA-X__social-items-links phone2">
             <span>
                 <i style="color:#00897B;" class="fa-solid fa-phone-volume"></i>
                 شماره تماس دوم:
             </span>
             9512 062 921 98+
         </a>
-        <a href="mailto:homow_dev@proton.me">
+        <a href="mailto:homow_dev@proton.me" class="CTA-X__social-items-links mail">
             <span>
                 <i style="color:#0088cc;" class="fas fa-envelope"></i>
                 ایمیل:
             </span>
             homow_dev@proton.me
         </a>
-        <a href="/contact/">
+        <a href="/contact/" class="CTA-X__social-items-links more">
             <span>
                 <i style="color: #00897B;" class="fa-solid fa-comment-dots"></i>
                 شبکه های اجتماعی و

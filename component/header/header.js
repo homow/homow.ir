@@ -131,7 +131,7 @@ li {
 
 @media only screen and (max-width: 720px) {
     .logo {
-        width: 80px;
+        display: block;
     }
 
     .logo a {
@@ -154,9 +154,18 @@ li {
         gap: 1rem;
         box-shadow: 0 0 4px 0 var(--nav-menu__bg-color);
         transition: all 0.8s;
-        padding-top: 1.5rem;
+        padding-top: .8rem;
     }
-
+    
+    .nav-menu li:first-child {
+        margin-bottom: 2rem;
+    }
+    
+    .nav-menu__link:hover {
+        color: var(--primary__white);
+        background-color: var(--nav-menu__hover-new__bc);
+    }
+    
     .designed-by-homow {
         display: block;
     }
@@ -192,14 +201,14 @@ li {
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
 <div class="wrapper__fixed-header">
-    <div class="logo">
-        <a href="/">
-            <img src="/asset/logo/homow-logo-1-crop.png" alt="logo">
-        </a>
+    <div class="theme">
+        <i class="fas fa-moon"></i>
     </div>
     <ul class="nav-menu">
-        <li class="theme center-flex-item">
-            <i class="fas fa-moon"></i>
+        <li class="logo center-flex-item">
+            <a href="/">
+            <img src="/asset/logo/homow-logo-1-crop.png" alt="logo">
+        </a>
         </li>
         <li class="nav-menu__items home">
             <a href="/" class="nav-menu__link"><i class="fa-solid fa-house"></i>خانه</a>

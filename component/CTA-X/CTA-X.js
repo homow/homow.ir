@@ -92,7 +92,7 @@ html.dark .CTA-X {
 }
 @media only screen and (max-width: 395px) {
     .CTA-X>h3 {
-        max-width: 100%;
+        max-width: 85%;
     }
     .CTA-X__title-wrapper {
         font-size: 1.3rem;
@@ -121,26 +121,26 @@ html.dark .CTA-X {
     .CTA-X__social-items-links {
         order: 99;
     }
-    .tel-port {
-        order: 3;
-    }
-    .whats {
-        order: 5;
+    .instagram {
+        order: 1;
     }
     .tel-chat {
         order: 2;        
     }
-    .phone1 {
-        order: 6;
-    }
-    .instagram {
-        order: 1;
-    }
-    .phone2 {
-        order: 7;
+    .tel-port {
+        order: 3;
     }
     .mail {
         order: 4;
+    }
+    .whats {
+        order: 5;
+    }
+    .phone1 {
+        order: 6;
+    }
+    .phone2 {
+        order: 7;
     }
     .more {
         order: 8;
@@ -157,35 +157,35 @@ html.dark .CTA-X {
         <a href="https://www.instagram.com/homow_dev" class="CTA-X__social-items-links instagram">
             <span>
                 <i style="color:#0088cc;" class="fa-brands fa-instagram"></i>
-                اینستاگرام من:
+                اینستاگرام من
             </span>
             homow_dev@
         </a>
         <a href="https://wa.me/989210629512" class="CTA-X__social-items-links whats">
             <span>
                 <i style="color:#00897B;" class="fa-brands fa-whatsapp"></i>
-                صفحه واتساپ:
+                صفحه واتساپ
             </span>
             9512 062 921 98+
         </a>
         <a href="https://t.me/homow_dev" class="CTA-X__social-items-links tel-chat">
             <span>
                 <i style="color:#0088cc;" class="fa-brands fa-telegram"></i>
-                صفحه تلگرام:
+                صفحه تلگرام
             </span>
             homow_dev@
         </a>
         <a href="tel:+989036364078" class="CTA-X__social-items-links phone1">
             <span>
                 <i style="color:#00897B;" class="fa-solid fa-phone-volume"></i>
-                شماره تماس اول:
+                شماره تماس اول
             </span>
             4078 636 903 98+
         </a>
         <a href="https://t.me/homow_portfolio" class="CTA-X__social-items-links tel-port">
             <span>
                 <i style="color:#0088cc;" class="fa-brands fa-telegram"></i>
-                چنل نمونه کار:
+                چنل نمونه کار
             </span>
             homow_portfolio@
         </a>
@@ -193,14 +193,14 @@ html.dark .CTA-X {
         <a href="tel:+989210629512" class="CTA-X__social-items-links phone2">
             <span>
                 <i style="color:#00897B;" class="fa-solid fa-phone-volume"></i>
-                شماره تماس دوم:
+                شماره تماس دوم
             </span>
             9512 062 921 98+
         </a>
         <a href="mailto:homow_dev@proton.me" class="CTA-X__social-items-links mail">
             <span>
                 <i style="color:#0088cc;" class="fas fa-envelope"></i>
-                ایمیل:
+                ایمیل
             </span>
             homow_dev@proton.me
         </a>

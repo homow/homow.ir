@@ -195,16 +195,15 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
 }
 @media only screen and (max-width: 450px) {
     .img-form {
-        top: -11%;
+        top: -9%;
     }
 }
 @media only screen and (max-width: 360px) {
     #custom-form * {
         font-size: 14px !important;
     }
-
     .img-form {
-        top: -8%;
+        top: -6%;
     }
 }
 </style>

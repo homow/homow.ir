@@ -206,7 +206,7 @@ li {
     </div>
     <ul class="nav-menu">
         <li class="logo center-flex-item">
-            <a href="https://cards.homow.ir/">
+            <a href="https://card.homow.ir/">
             <img src="/asset/logo/homow-logo-1-crop.png" alt="logo">
         </a>
         </li>
@@ -223,7 +223,7 @@ li {
             <a href="/code-graphy/" class="nav-menu__link"><i class="fa-solid fa-code"></i>کدگرافی</a>
         </li>
         <li class="designed-by-homow">
-            <a target="_blank" href="https://cards.homow.ir/">Designed with❤️by Homow</a>
+            <a target="_blank" href="https://card.homow.ir/">Designed with❤️by Homow</a>
         </li>
     </ul>
     <span class="btn__nav-menu">

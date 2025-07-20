@@ -209,7 +209,7 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
 </style>
 <div id="custom-form">
 <div class="img-form">
-    <img src="/asset/img/contact/mail.webp" alt="mail picture">
+    <img loading="lazy" src="/asset/img/contact/mail.webp" alt="mail picture">
 </div>
 <p>
     اگه حرفی، انتقادی، نظری، پیشنهادی یا حتی برای ارتباط سریع، میتونید با این فرم باهام حرف بزنید
@@ -219,15 +219,15 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
     <button class="primary-button">Done</button>
 </div>
 <form>
-    <img src="/asset/img/contact/send.webp" alt="send picture">
+    <img loading="lazy" src="/asset/img/contact/send.webp" alt="send picture">
     <label id="name-label">
-        <input class="glass-morphism-box" type="text" name="name" placeholder="اسم" required>
+        <input class="glass-morphism-box" type="text" name="firstName" placeholder="اسم" required autocomplete="on">
     </label>
     <label id="email-label">
-        <input class="glass-morphism-box" type="email" name="email" placeholder="ایمیل" required>
+        <input class="glass-morphism-box" type="email" name="emailAddress" placeholder="ایمیل" required autocomplete="on">
     </label>
     <label id="number-label">
-        <input class="glass-morphism-box" type="tel" dir="rtl" name="tel" placeholder="شماره تلفن (اختیاری)">
+        <input class="glass-morphism-box" type="tel" dir="rtl" name="phoneNumber" placeholder="شماره تلفن (اختیاری)" autocomplete="on">
     </label>
     <label id="textarea-label">
         <textarea class="glass-morphism-box" name="message" placeholder="پیام" required></textarea>

@@ -49,7 +49,7 @@
 }
 
 .arrow-img-wrapper {
-    width: 20%;
+    width: 10%;
     position: absolute;
     left: 20px;
     top: 20px;
@@ -214,7 +214,7 @@ html.dark .about-site__tech span {
     border-radius: 12px;
 }
 
-/*--------------*/
+/* bottom main */
 
 .bottom-main {
     margin-top: 14rem;
@@ -228,7 +228,7 @@ html.dark .about-site__tech span {
 }
 
 .know-me-wrapper {
-    padding: 6rem 1rem 2rem 1rem;
+    padding: 2rem 1rem;
     border-radius: 12px;
     position: relative;
     background-color: var(--background-green);
@@ -303,6 +303,9 @@ html.dark .about-site__tech span {
     .about-site__tech {
         padding: 2rem 1rem;
     }
+    .arrow-img-wrapper {
+        width: 18%;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -314,6 +317,9 @@ html.dark .about-site__tech span {
 @media only screen and (max-width: 450px) {
     .about-site__tech {
         grid-template-columns: repeat(2, auto);
+    }
+    .know-me__title-wrapper h2 {
+        font-size: 1.2rem;
     }
 }
 

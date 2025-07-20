@@ -167,7 +167,7 @@
 .bottom-main-wrapper {
     box-shadow: var(--box-shadow);
     border-radius: 12px;
-    padding: 8rem 1rem 2rem 1rem;
+    padding: 2rem 1rem;
     position: relative;
 }
 
@@ -202,17 +202,13 @@
     text-align: center;
 }
 
-.req-codeGraphy-wrapper {
-
-}
-
 .req-codeGraphy__title-wrapper {
     margin: 2rem 0;
     place-self: center;
 }
 
 .req-codeGraphy__text-wrapper {
-    padding: 6rem 1rem 2rem 1rem;
+    padding: 2rem 1rem;
     border-radius: 12px;
     background-color: var(--background-green);
     position: relative;

@@ -8,7 +8,7 @@ a {
 }
 .CTA-X {
     border-radius: 12px;
-    padding: 8rem 1rem 2rem 1rem;
+    padding: 2rem 1rem 2rem 1rem;
     background-color: #27445D;
     position: relative;
     color: #ddd;
@@ -82,7 +82,7 @@ a {
         font-size: 1.1rem;
     }
     .CTA-X {
-        padding: 8rem .35rem 2rem .35rem;
+        padding: 2rem .35rem 2rem .35rem;
     }    
 }
 @media only screen and (max-width: 395px) {
@@ -103,11 +103,16 @@ a {
     }
 }
 @media only screen and (max-width: 360px) {
+    .CTA-X>h3 {
+        width: 100%;
+        margin: 0;
+    }
     .CTA-X__content-wrapper a {
         display: unset;
+        font-size: .9rem;
     }
     .CTA-X__content-wrapper {
-        gap: 1rem;
+        gap: .5rem;
         grid-template-columns: repeat(1, 1fr);
     }
     .CTA-X__content-wrapper a, .CTA-X__title-wrapper, .CTA-X>h3 {

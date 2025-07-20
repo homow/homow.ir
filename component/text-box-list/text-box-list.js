@@ -17,7 +17,6 @@ a {
 }
 a:hover {
     color: #5e5f64 !important;
-    text-shadow: 0 0 5px #5e5f64;
 }
 .text-list-wrapper li {
     list-style-type: none;
@@ -32,6 +31,7 @@ a:hover {
 }
 .title-list-wrapper {
     margin-bottom: 1rem;
+    padding-right: .5rem;
 }
 [slot=text-list] {
     transition: all 250ms;
@@ -65,8 +65,11 @@ html.dark [slot=text-list]:hover {
     }
 }
 @media only screen and (max-width: 400px) {
+    .title-list-wrapper {
+        padding-right: .2rem;
+    }
     .text-list-wrapper li {
-        padding-right: .4rem;
+        padding-right: .6rem;
     }
 }
 @media only screen and (max-width: 320px) {

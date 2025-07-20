@@ -128,7 +128,7 @@ const aboutMySkills = [
         ]
     },
     {
-        dataTitle: "طراحی سایت Portfolio اختصاصی مثل همین وبسایت",
+        dataTitle: "توسعه‌ سایت Portfolio اختصاصی مثل همین وبسایت",
         dataIcon: "fa-solid fa-address-card",
         dataColor: "rgb(244, 114, 208)",
         dataText: [

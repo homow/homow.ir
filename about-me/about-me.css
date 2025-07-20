@@ -248,12 +248,6 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
-    .req-to-develop__title-wrapper {
-        margin-top: 3.8rem;
-    }
-}
-
 @media only screen and (max-width: 550px) {
     .title__img-wrapper {
         max-width: 285px;
@@ -303,6 +297,6 @@
 
 @media only screen and (max-width: 320px) {
     .title__img-top {
-        left: 0%;
+        left: 0;
     }
 }

@@ -89,7 +89,7 @@ customObserver.runObserver(versionHeader, customObserver.typingAnimations, {thr:
 
 (async () => {
     await customObserver.runObserver(jsCode, customObserver.typingAnimations, {thr: 1});
-    await customObserver.runObserver(buttonAnimate, customObserver.typingAnimations, {advanced: customObserver.addClassName.bind(null, [[buttonEvent, "active"]]), delay: 3000, once: true, thr: 1});
+    await customObserver.runObserver(buttonAnimate, customObserver.typingAnimations, {advanced: customObserver.addClassName.bind(null, [[buttonEvent, "active"]]), delay: 1500, once: true, thr: 1});
 })();
 
 customObserver.runObserver(aboutSkills, customObserver.addClassName.bind(null, [[aboutSkills, "about-skills-wrapper-animate"]]), {thr: .1})

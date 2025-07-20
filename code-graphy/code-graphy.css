@@ -150,6 +150,10 @@ html.dark .about-site__tech span {
     padding: 2rem 1rem 6rem 1rem;
 }
 
+.about-site-wrapper .req-to-portfolio {
+    margin-bottom: 0;
+}
+
 .about-site__title-text {
     margin: 1rem 0;
 }

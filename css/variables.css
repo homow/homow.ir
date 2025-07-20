@@ -400,10 +400,6 @@ custom-form {
     .center-text1100 {
         max-width: 100%;
     }
-
-    .fast-delivery__title {
-
-    }
 }
 
 @media only screen and (max-width: 520px) {
@@ -412,7 +408,7 @@ custom-form {
     }
 
     .playAroundImg {
-        width: 21%;
+        width: 16%;
     }
 
     .fast-delivery__title-wrapper {
@@ -456,7 +452,7 @@ custom-form {
     }
 
     .playAroundImg {
-        width: 24%;
+        width: 18%;
     }
 }
 
@@ -474,7 +470,7 @@ custom-form {
 
 @media only screen and (max-width: 360px) {
     .playAroundImg {
-        width: 25% !important;
+        width: 20% !important;
     }
 
     .center-text440 {

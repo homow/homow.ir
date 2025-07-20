@@ -32,7 +32,6 @@ export const createTitleTextImg = data => {
 
         const icon = document.createElement("i")
         icon.className = item.icon
-        icon.style.color = item.color
 
         title.insertAdjacentElement("afterbegin", icon);
 

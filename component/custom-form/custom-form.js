@@ -212,7 +212,6 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
     <img src="/asset/img/contact/mail.webp" alt="mail picture">
 </div>
 <p>
-    <i style="color:#EB5B00;" class="fa-solid fa-envelopes-bulk"></i>
     اگه حرفی، انتقادی، نظری، پیشنهادی یا حتی برای ارتباط سریع، میتونید با این فرم باهام حرف بزنید
 </p>
 <div class="form-status">
@@ -228,7 +227,7 @@ template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
         <input class="glass-morphism-box" type="email" name="email" placeholder="ایمیل" required>
     </label>
     <label id="number-label">
-        <input class="glass-morphism-box" type="tel" dir="rtl" name="tel" placeholder="شماره تلفن(اختیاری)">
+        <input class="glass-morphism-box" type="tel" dir="rtl" name="tel" placeholder="شماره تلفن (اختیاری)">
     </label>
     <label id="textarea-label">
         <textarea class="glass-morphism-box" name="message" placeholder="پیام" required></textarea>

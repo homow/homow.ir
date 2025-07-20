@@ -219,11 +219,11 @@ html {
                 <div class="footer__contact">
                     <h3>ارتباط سریع</h3>
                     <div class="footer__icon-wrapper">
-                        <a href="https://www.instagram.com/homow_dev" title="اینستاگرام">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
                         <a href="tel:+989036364078" title="تماس">
                             <i class="fas fa-phone-alt"></i>
+                        </a>
+                        <a href="https://www.instagram.com/homow_dev" title="اینستاگرام">
+                            <i class="fa-brands fa-instagram"></i>
                         </a>
                         <a href="https://t.me/homow_dev" target="_blank" title="تلگرام">
                             <i class="fab fa-telegram"></i>

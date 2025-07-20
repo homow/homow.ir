@@ -142,6 +142,7 @@ html.dark .about-site__tech span {
 
 .about-site__tech i {
     font-size: 1.8rem;
+    color: var(--icon-color);
 }
 
 .about-site-wrapper {
@@ -215,10 +216,6 @@ html.dark .about-site__tech span {
     margin-top: 14rem;
 }
 
-.bottom-main-wrapper {
-
-}
-
 /* know-me */
 
 .know-me {
@@ -230,7 +227,7 @@ html.dark .about-site__tech span {
     padding: 6rem 1rem 2rem 1rem;
     border-radius: 12px;
     position: relative;
-    background-color: var(--background-red);
+    background-color: var(--background-green);
 }
 
 .know-me__img {

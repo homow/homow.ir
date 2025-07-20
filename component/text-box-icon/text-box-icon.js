@@ -19,7 +19,6 @@ const createTextBoxIcon = data => {
         // icon
         const icon = document.createElement("i")
         icon.className = box.dataIcon
-        icon.style.color = box.dataColor
 
         // title text
         const titleText = document.createElement("span")
@@ -33,7 +32,7 @@ const createTextBoxIcon = data => {
         box.dataText.forEach(text => {
             const textSubWrapper = document.createElement("div")
             textSubWrapper.className = "text-box-icon__text"
-            textSubWrapper.insertAdjacentHTML("beforeend", `<span style="background-color: ${box.dataColor};" class="text-box__circle"></span><p>${text}</p>`)
+            textSubWrapper.insertAdjacentHTML("beforeend", `<span class="text-box__circle"></span><p>${text}</p>`)
             textWrapper.appendChild(textSubWrapper)
         })
 

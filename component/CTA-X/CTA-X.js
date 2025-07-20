@@ -9,11 +9,9 @@ a {
 .CTA-X {
     border-radius: 12px;
     padding: 8rem 1rem 2rem 1rem;
-    background-color: var(--background__pink);
+    background-color: #27445D;
     position: relative;
-}
-html.dark .CTA-X {
-    color: #fff;
+    color: #ddd;
 }
 .CTA-X>h3, .CTA-X__title-wrapper {
     font-size: 17px;
@@ -23,9 +21,6 @@ html.dark .CTA-X {
 }
 .CTA-X__title-wrapper {
     margin-bottom: 4rem;
-}
-.CTA-X__title-wrapper i {
-    color: #6598c9;
 }
 .CTA-X__content-wrapper {
     display: grid;
@@ -150,7 +145,6 @@ html.dark .CTA-X {
 <div class="CTA-X">
     <h3>جهت سفارش پروژه، همکاری یا مشاوره رایگان باهام در ارتباط باش</h3>
     <h2 class="CTA-X__title-wrapper">
-        <i class="fa-solid fa-mobile-screen"></i>
         <span>راه های ارتباطی سریع با من</span>
     </h2>
     <div class="CTA-X__content-wrapper">

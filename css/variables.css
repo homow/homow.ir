@@ -44,10 +44,10 @@ html {
     --inset-shadow: 0 0 5px 0 #1e1f26 inset;
     --box-hover: rgba(0, 0, 0, 0.05);
     --new-box-hover: rgba(0, 0, 0, 0.05);
-    --background__pink: #cdc9ef;
     --background-green: #AEC8A4;
-    --background-red: #e69a9a;
     --go-to__about-site-bg: #3f7a7a;
+    --icon-color: #50515A;
+    --icon-color__bold: #50515A;
 
     /* footer */
     --background__footer: linear-gradient(to left, #e0eaff, #c2d4ff);
@@ -79,10 +79,10 @@ html {
     --box-shadow: 0 2px 8px 2px #121318;
     --box-hover: rgba(0, 0, 0, 0.25);
     --new-box-hover: rgba(0, 0, 0, 0.25);
-    --background__pink: #27445D;
     --background-green: #27391C;
-    --background-red: #491010;
     --go-to__about-site-bg: darkslategrey;
+    --icon-color: #9AA0B3;
+    --icon-color__bold: #5B6275;
 
     /* footer */
     --background__footer: #2a2d37;
@@ -191,8 +191,6 @@ body {
     color: #5e5f64;
     text-shadow: 0 0 5px #5e5f64;
 }
-.req-to-portfolio {}
-.req-to-portfolio {}
 
 /* buttons */
 

@@ -16,6 +16,7 @@
 
 .title-text__title i {
     padding-left: .4rem;
+    color: var(--icon-color);
 }
 
 .title-text-img__text {

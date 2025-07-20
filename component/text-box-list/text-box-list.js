@@ -79,7 +79,6 @@ html.dark [slot=text-list]:hover {
 }
 </style>
 <h2 class="title-list-wrapper">
-<i></i>
 <span></span>
 </h2>
 <ul class="text-list-wrapper"></ul>`;
@@ -92,11 +91,8 @@ class TextBoxList extends HTMLElement {
     }
 
     connectedCallback() {
-        const icon = this.dataset.icon;
         const color = this.dataset.color;
         const title = this.shadowRoot.querySelector(".title-list-wrapper");
-        title.querySelector("i").className = icon;
-        title.querySelector("i").style.color = color;
         title.querySelector("span").textContent = this.dataset.title;
 
         const wrapper = this.shadowRoot.querySelector('.text-list-wrapper');
@@ -106,7 +102,7 @@ class TextBoxList extends HTMLElement {
         slot.forEach(slot => {
             const icon = document.createElement("i")
             icon.className = slot.dataset.icon
-            icon.style.color = slot.dataset.color;
+            icon.style.color = color;
 
             const clone = slot.cloneNode(true);
             clone.insertAdjacentElement("afterbegin", icon);

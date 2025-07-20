@@ -32,7 +32,9 @@ html.dark .text-box-icon:hover {
 .text-box-icon__title-wrapper {
     margin: 1rem 0;
 }
-
+.text-box-icon__title-wrapper i {
+    color: var(--icon-color__bold);
+}
 .text-box-icon__title {
     padding-right: .3rem;
 }
@@ -56,6 +58,7 @@ html.dark .text-box-icon:hover {
 }
 
 .text-box__circle {
+    background-color: var(--icon-color__bold);
     display: block;
     min-width: 6px;
     min-height: 6px;

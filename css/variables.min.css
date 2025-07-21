@@ -107,7 +107,6 @@ li {
 }
 
 body {
-    /*overflow-x: hidden;*/
     color: var(--primary__gery-header);
     background-color: var(--background);
     font-family: "dana medium", serif;

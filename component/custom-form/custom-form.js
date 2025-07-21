@@ -1,6 +1,6 @@
 const template = document.createElement('template');
 
-template.innerHTML = `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+template.innerHTML = `
 <style>
 .glass-morphism-box {
     background: rgba(255, 255, 255, 0.05);

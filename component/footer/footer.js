@@ -1,11 +1,12 @@
 const template = document.createElement('template');
 
-template.innerHTML = `
+template.innerHTML = `<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
 <style>
 html {
     box-sizing: border-box;
 }
-
 *,
 *::after,
 *::before {
@@ -184,7 +185,6 @@ html {
     }
 }
 </style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
 <div class="my-footer-wrapper">
 <div class="footer__info-wrapper">
                 <div class="footer__info">
@@ -195,7 +195,7 @@ html {
                 </div>
                 <div class="footer__logo-wrapper">
                     <a href="/">
-                        <img class="footer__logo" src="/asset/logo/homow-logo-1-crop.png" alt="footer-logo" title="footer logo">
+                        <img class="footer__logo" src="/asset/logo/homow-logo-1-crop.webp" loading="lazy" decoding="async" alt="footer-logo" title="footer logo">
                     </a>
                 </div>
             </div>

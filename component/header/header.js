@@ -2,7 +2,9 @@ const rootElem = document.querySelector(":root")
 
 const template = document.createElement('template');
 
-template.innerHTML = `
+template.innerHTML = `<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
 <style>
 html {
     box-sizing: border-box;
@@ -199,15 +201,14 @@ li {
     }
 }
 </style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
 <div class="wrapper__fixed-header">
     <div class="theme">
         <i class="fas fa-moon"></i>
     </div>
     <ul class="nav-menu">
         <li class="logo center-flex-item">
-            <a href="https://card.homow.ir/">
-            <img src="/asset/logo/homow-logo-1-crop.png" alt="logo">
+            <a target="_blank" href="https://card.homow.ir/">
+            <img src="/asset/logo/homow-logo-1-crop.webp" alt="logo" fetchpriority="high" decoding="async">
         </a>
         </li>
         <li class="nav-menu__items home">

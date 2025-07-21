@@ -66,7 +66,8 @@
     direction: ltr;
     box-shadow: var(--box-shadow);
     border-radius: 12px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
     align-items: center;
     justify-content: center;
     padding: 3rem 4rem;
@@ -174,12 +175,13 @@ html.dark .about-site__tech span {
     margin: 6rem 0 2rem 0;
 }
 
-.abouts-site__title p:not(:last-child) {
-    margin-top: 2rem;
+.code-graphy-p-wrapper p {
+    max-width: 500px;
+    margin: auto;
 }
 
-.abouts-site__title p:last-child {
-    margin-top: .7rem;
+.code-graphy-p-wrapper p {
+    margin-top: 2rem;
 }
 
 .about-site-content {
@@ -270,11 +272,6 @@ html.dark .about-site__tech span {
     .top-main__img-wrapper {
         width: 50%;
     }
-
-    .about-site__tech {
-        display: grid;
-        grid-template-columns: repeat(3, auto);
-    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -303,6 +300,7 @@ html.dark .about-site__tech span {
     .about-site__tech {
         padding: 2rem 1rem;
     }
+
     .arrow-img-wrapper {
         width: 18%;
     }
@@ -318,6 +316,11 @@ html.dark .about-site__tech span {
     .about-site__tech {
         grid-template-columns: repeat(2, auto);
     }
+
+    .about-site__tech span {
+        justify-content: flex-start;
+    }
+
     .know-me__title-wrapper h2 {
         font-size: 1.2rem;
     }
@@ -329,7 +332,7 @@ html.dark .about-site__tech span {
     }
 
     .about-site__tech {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, max-content);
         gap: 1.2rem;
     }
 

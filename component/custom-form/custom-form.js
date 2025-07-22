@@ -74,6 +74,7 @@ template.innerHTML = `
 
 .form-status button {
     color: var(--nav-menu__bg-color) !important;
+    background-color: var(--primary__gery);
 }
 
 .show-form-status {

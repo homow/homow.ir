@@ -35,7 +35,7 @@ html {
 }
 
 .footer__logo-wrapper {
-    max-width: 340px;
+    max-width: 300px;
 }
 
 .footer__logo-wrapper a {
@@ -146,7 +146,7 @@ html {
     }
 
     .footer__logo-wrapper {
-        max-width: 300px;
+        max-width: 250px;
     }
 
     .footer__info {
@@ -166,7 +166,7 @@ html {
     }
 
     .footer__logo-wrapper {
-        max-width: 260px;
+        max-width: 180px;
     }
 }
 @media only screen and (max-width: 350px) {
@@ -195,7 +195,7 @@ html {
                 </div>
                 <div class="footer__logo-wrapper">
                     <a href="/">
-                        <img class="footer__logo" src="/asset/logo/homow-logo-1-crop.webp" loading="lazy" decoding="async" alt="footer-logo" title="footer logo">
+                        <img class="footer__logo" src="/asset/logo/logo.webp" loading="lazy" decoding="async" alt="footer-logo" title="footer logo">
                     </a>
                 </div>
             </div>

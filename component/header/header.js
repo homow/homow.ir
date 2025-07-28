@@ -44,7 +44,8 @@ li {
 }
 .logo a {
     height: 58px;
-    display: block;
+    display: flex;
+    align-items: center;
 }
 .logo img {
     border-radius: 4px;
@@ -155,14 +156,10 @@ li {
         background-color: var(--nav-menu__bg-color);
         gap: 1rem;
         box-shadow: 0 0 4px 0 var(--nav-menu__bg-color);
-        transition: all 0.8s;
+        transition: all 0.5s;
         padding-top: .8rem;
     }
-    
-    .nav-menu li:first-child {
-        margin-bottom: 2rem;
-    }
-    
+
     .nav-menu__link:hover {
         color: var(--primary__white);
         background-color: var(--nav-menu__hover-new__bc);
@@ -208,7 +205,7 @@ li {
     <ul class="nav-menu">
         <li class="logo center-flex-item">
             <a target="_blank" href="https://card.homow.ir/">
-            <img src="/asset/logo/homow-logo-1-crop.webp" alt="logo" fetchpriority="high" decoding="async">
+            <img src="/asset/logo/logo.webp" alt="logo" fetchpriority="high" decoding="async">
         </a>
         </li>
         <li class="nav-menu__items home">

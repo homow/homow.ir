@@ -30,7 +30,6 @@ The main structure follows a clean modular layout:
 ├── js/                    # JavaScript functionality  
 ├── index.html             # Homepage  
 ├── 404.html               # Redirect fallback for unknown paths  
-├── CNAME                  # GitHub Pages domain configuration  
 ├── robots.txt             # SEO directives for crawlers  
 ├── sitemap.xml            # Sitemap for search engines  
 ├── .nojekyll              # Prevent GitHub Pages from processing with Jekyll  

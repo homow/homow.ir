@@ -162,12 +162,12 @@ a {
             </span>
             homow_dev@
         </a>
-        <a href="https://wa.me/989210629512" class="CTA-X__social-items-links whats">
+        <a href="https://www.youtube.com/@homow_dev" target="_blank" class="CTA-X__social-items-links phone1">
             <span>
-                <i style="color:#00897B;" class="fa-brands fa-whatsapp"></i>
-                صفحه واتساپ
+                <i style="color:#00897B;" class="fa-brands fa-youtube"></i>
+                چنل یوتیوب
             </span>
-            9512 062 921 98+
+            @homow_dev
         </a>
         <a href="https://t.me/homow_dev" class="CTA-X__social-items-links tel-chat">
             <span>
@@ -176,12 +176,12 @@ a {
             </span>
             homow_dev@
         </a>
-        <a href="tel:+989036364078" class="CTA-X__social-items-links phone1">
+        <a href="https://wa.me/989210629512" class="CTA-X__social-items-links whats">
             <span>
-                <i style="color:#00897B;" class="fa-solid fa-phone-volume"></i>
-                شماره تماس اول
+                <i style="color:#00897B;" class="fa-brands fa-whatsapp"></i>
+                صفحه واتساپ
             </span>
-            4078 636 903 98+
+            9512 062 921 98+
         </a>
         <a href="https://t.me/homow_portfolio" class="CTA-X__social-items-links tel-port">
             <span>
@@ -194,7 +194,7 @@ a {
         <a href="tel:+989210629512" class="CTA-X__social-items-links phone2">
             <span>
                 <i style="color:#00897B;" class="fa-solid fa-phone-volume"></i>
-                شماره تماس دوم
+                شماره تماس
             </span>
             9512 062 921 98+
         </a>

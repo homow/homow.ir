@@ -146,7 +146,7 @@ body {
 /* footer */
 
 .footer {
-    margin-top: 17rem;
+    margin-top: 8rem;
     background: var(--background__footer);
     color: var(--footer__color);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);

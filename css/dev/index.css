@@ -422,7 +422,7 @@ html.dark .cta-index-header a:last-child {
 
 .about-skills {
     position: relative;
-    margin: 5rem 0 10rem 0;
+    margin: 3rem 0 4rem 0;
 }
 
 .about-skills__img-wrapper {
@@ -750,7 +750,7 @@ html.dark .cta-index-header a:last-child {
 /* call-to-action__CTA-X */
 
 .call-to-action__CTA-X {
-    margin-top: 8rem;
+    margin-top: 3rem;
 }
 
 /* responsive */

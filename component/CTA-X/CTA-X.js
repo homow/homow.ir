@@ -167,7 +167,7 @@ a {
                 <i style="color:#00897B;" class="fa-brands fa-youtube"></i>
                 چنل یوتیوب
             </span>
-            @homow_dev
+            homow_dev@
         </a>
         <a href="https://t.me/homow_dev" class="CTA-X__social-items-links tel-chat">
             <span>

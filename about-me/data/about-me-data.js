@@ -11,6 +11,16 @@ const aboutMySkills = [
         ]
     },
     {
+        dataTitle: "چنل یوتیوب آموزشیِ فرانت اند",
+        dataIcon: 'fa-brands fa-youtube',
+        dataColor: 'rgb(250, 104, 0)',
+        dataText: [
+            "در اوایل ورودم به فرانت اند مشکلات زیادی داشتم و برای حل این مشکلات، منبع فارسی خیلی خوبی وجود نداشت",
+            "بخاطر همین تصیمیم گرفتم که یک <a href=\"https://www.youtube.com/@homow_dev\" target=\"_blank\" style=\"color:var(--footer__link); font-weight: 600\">چنل یوتیوب</a> برای همون مشکلات با کیفیت تصویر و صدای مناسب راه اندازی کنم، مخصوص فرانت اند",
+            "پس اگر تازه وارد فرانت شدید یا حتی قصد دارید که با مهارت های فرانت اندتون کاربردی تر ادامه بدید این <a href=\"https://www.youtube.com/@homow_dev\" target=\"_blank\" style=\"color:var(--footer__link); font-weight: 600\">چنل یوتیوب</a> مخصوص شماست، کنار هم میتونیم پیشرفت کنیم."
+        ]
+    },
+    {
         dataTitle: "با مهارت‌های کم‌استفاده یا خارج از حوزه تمرکزم شروع میکنم",
         dataIcon: "fa-sharp fa-solid fa-not-equal",
         dataColor: "#E53935",

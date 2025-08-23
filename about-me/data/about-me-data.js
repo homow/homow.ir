@@ -9,7 +9,7 @@ const aboutMySkills = [
         ]
     },
     {
-        dataTitle: "چنل یوتیوب آموزشیِ فرانت اند",
+        dataTitle: "<a href='https://www.youtube.com/@homow_dev' target='_blank' style='color:var(--footer__link); text-decoration: none !important;'>چنل یوتیوب آموزشیِ فرانت اند</a>",
         dataIcon: 'fa-brands fa-youtube',
         dataText: [
             "در اوایل ورودم به فرانت اند مشکلات زیادی داشتم و برای حل این مشکلات، منبع فارسی خیلی خوبی وجود نداشت",

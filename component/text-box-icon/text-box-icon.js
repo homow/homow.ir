@@ -23,7 +23,7 @@ const createTextBoxIcon = data => {
         // title text
         const titleText = document.createElement("span")
         titleText.className = "text-box-icon__title"
-        titleText.textContent = box.dataTitle
+        titleText.innerHTML = box.dataTitle
 
         // sub text
         const textWrapper = document.createElement("div");

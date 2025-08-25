@@ -3,7 +3,7 @@ const aboutMySkills = [
         dataTitle: ' اول از همه، از معرفی خودم شروع میکنم:',
         dataIcon: 'fa-solid fa-user-secret',
         dataText: [
-            'من همایون شریفی ام 24 سالمه، تخصص اصلیم کدنویسی زبان جاوا اسکپریت و توسعه فرانت-اند با این زبان هست',
+            'من همایون شریفی ام، تخصص اصلیم کدنویسی زبان جاوا اسکپریت و توسعه فرانت-اند با این زبان هست',
             "ریشه علاقه من در سن 8 سالگی از سال 88 در بلاگفا با اینترنت لاکپشتی، گوشی Xperia Neo L و وبلاگ ساختن شروع شد",
             'در ادامه تمام مهارت هایی رو که در پایین میبینید من قادرم باهاشون پروژه های دانشجویی و معمولی رو انجام بدم و نمونه کارهایی هم دارم.'
         ]
@@ -92,13 +92,13 @@ const aboutMySkills = [
         ]
     },
     {
-        dataTitle: "توسعه فرانت‌اند با HTML, CSS & JavaScript",
+        dataTitle: "توسعه فرانت‌اند با HTML, tailwind & JavaScript",
         dataIcon: "fa-brands fa-square-js",
         dataText: [
             "بهینه‌سازی عملکرد، خوانایی کد، و رعایت کامل اصول SEO در HTML و ساختار وب",
             "تسلط کامل بر مفاهیم Responsive Design، طراحی ریسپانسیو برای موبایل، تبلت و دسکتاپ و..",
             "استفاده از تکنیک‌های پیشرفته مثل Shadow DOM، طراحی کامپوننتی و ساختار ماژولار در پروژه‌ها",
-            "طراحی کامل و اختصاصی وب‌سایت، مثل <a target='_blank' style='font-weight: 600; color: color: var(--footer__link);'  href='https://homow.ir'>homow.ir</a> با استفاده از HTML، CSS و JavaScript — بدون هیچ فریم‌ورک آماده"
+            "طراحی کامل و اختصاصی وب‌سایت، مثل <a target='_blank' style='font-weight: 600; color: color: var(--footer__link);'  href='https://homow.ir'>homow.ir</a> با استفاده از HTML، CSS و JavaScript — و tailwind"
         ]
     },
     {

@@ -96,32 +96,6 @@ const codeGraphyData = [
             "/asset/img/about-site/webstorm.webp"
         ],
         textSub: "<a href='https://github.com/homow' class='link-hover-style' target='_blank'>«صفحه گیت هاب من»</a>  رو بیشتر بررسی کنید "
-    },
-    {
-        icon: "fa-solid fa-robot",
-        color: "rgb(130, 90, 44)",
-        title: "آیا به تنهایی کل این وبسایت رو هندل کردم؟",
-        text: [
-            "از لحاظ فیزیکی بله، کل وبسایت توسط من هندل شد و همونطور که گفتم، هیچ طرح قبلی یا کپی برداری صورت نگرفته و همه با ذهن خودم بوده.",
-            "اما توی این راه تنهای تنها نبودم و دوتا دوست با نام های <a href='https://chatgpt.com/' class='link-hover-style' target='_blank'>«ChatGPT»</a> و <a href='https://copilot.microsoft.com/' class='link-hover-style' target='_blank'>«Microsoft Copilot»</a> هم کنارم بودن"
-        ],
-        imgData: [
-            "/asset/img/about-site/chatGPT-Copilot.webp",
-        ],
-        textSub: "تصاویر وبسایتم رو اونا برام ساختن"
-    },
-    {
-        icon: "fa-solid fa-house-lock",
-        color: "#60B5FF",
-        title: "و در آخر",
-        text: [
-            "این <a href='/' class='link-hover-style' target='_blank'>«وبسایت»</a> شاید برای شما فقط یه سایت باشه، ولی برای من جایی بود که تونستم ایده هامو توی یک صفحه سفید خالی پیاده بکنم.",
-            "با اینکه دوستش دارم، ولی مطمئنم هنوز جا برای بهتر شدن داره، اگه نظری یا انتقادی داشتی حتماً برام تو فرم زیر بنویس، پیام تک‌تک‌تون رو می‌خونم و جدی می‌گیرم."
-        ],
-        imgData: [
-            "/asset/img/about-site/my-home.webp",
-        ],
-        textSub: "منتظر نقدها و نظراتت هستم"
     }
 ]
 

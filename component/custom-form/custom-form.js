@@ -106,7 +106,7 @@ template.innerHTML = `
     width: 100%;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: var(--box-shadow);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 #custom-form form label * {
     outline: none;
@@ -128,7 +128,7 @@ template.innerHTML = `
 #custom-form form button, .form-status button {
     border: none;
     outline: none;
-    padding: 1rem 4rem;
+    padding: 1rem 3rem;
     cursor: pointer;
     font-family: 'dana medium', serif;
     color: var(--primary__black);

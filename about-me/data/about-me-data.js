@@ -26,11 +26,11 @@ const aboutMySkills = [
         ]
     },
     {
-        dataTitle: "شبیه‌سازی شبکه با GNS3",
+        dataTitle: "شبیه‌سازی شبکه با GNS3 و Packet Tracer",
         dataIcon: "fa-solid fa-globe",
         dataText: [
             'توپولوژی شبکه، اتصال به Router، Switch، Cloud، Virtual PC رو به‌صورت شبیه سازی تست کردم',
-            "با ابزار GNS3 چند پروژه‌ی شبیه‌سازی ساده انجام دادم، مخصوصاً در حوزه‌های آموزشی و دانشجویی."
+            "با ابزار GNS3 و Packet Tracer چند پروژه‌ی شبیه‌سازی ساده انجام دادم، مخصوصاً در حوزه‌های آموزشی و دانشجویی."
         ]
     },
     {

@@ -18,14 +18,6 @@ const aboutMySkills = [
         ]
     },
     {
-        dataTitle: " ساخت محتوای آموزشی با Articulate Storyline",
-        dataIcon: "fa-solid fa-film",
-        dataText: [
-            "هرچند علاقه‌ی اصلی‌ام جای دیگه‌ست، ولی تجربه‌ ای از کار با استوری لاین هم دارم",
-            "با Storyline پروژه‌های آموزشی ساده طراحی کرده‌ام، مخصوصاً برای پروژه‌های دانشجویی",
-        ]
-    },
-    {
         dataTitle: "شبیه‌سازی دیجیتال با ModelSim",
         dataIcon: "fa-solid fa-gear",
         dataText: [

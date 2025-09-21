@@ -6,13 +6,13 @@ template.innerHTML = `
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
     border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 #custom-form {
     position: relative;
     margin-top: 8rem;
-    box-shadow: var(--box-shadow);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
 }
 

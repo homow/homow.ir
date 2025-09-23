@@ -204,7 +204,7 @@ li {
     </div>
     <ul class="nav-menu">
         <li class="logo center-flex-item">
-            <a target="_blank" href="https://card.homow.ir/">
+            <a target="_blank" href="https://homow.ir/">
             <img src="/asset/logo/logo.webp" alt="logo" fetchpriority="high" decoding="async">
         </a>
         </li>

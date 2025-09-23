@@ -219,16 +219,16 @@ html {
                 <div class="footer__contact">
                     <h3>ارتباط سریع</h3>
                     <div class="footer__icon-wrapper">
-                        <a href="tel:+989036364078" title="تماس">
+                        <a target="_blank" href="tel:+989036364078" title="تماس">
                             <i class="fas fa-phone-alt"></i>
                         </a>
-                        <a href="https://www.instagram.com/homow_dev" title="اینستاگرام">
+                        <a target="_blank" href="https://www.instagram.com/homow_dev" title="اینستاگرام">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
                         <a href="https://t.me/homow_dev" target="_blank" title="تلگرام">
                             <i class="fab fa-telegram"></i>
                         </a>
-                        <a href="mailto:homow_dev@proton.me" title="ایمیل">
+                        <a target="_blank" href="mailto:homow_dev@proton.me" title="ایمیل">
                             <i class="fas fa-envelope"></i>
                         </a>
                         <a href="https://wa.me/989210629512" target="_blank" title="واتساپ">

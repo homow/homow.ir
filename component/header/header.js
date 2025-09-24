@@ -139,7 +139,11 @@ li {
         padding: 0.5rem;
     }
 }
-
+@media only screen and (min-width: 720px) {
+    .overlay {
+        display: none !important;
+    }
+}
 @media only screen and (max-width: 720px) {
     .logo {
         display: block;

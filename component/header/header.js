@@ -23,6 +23,14 @@ a {
 li {
     list-style-type: none;
 }
+.overlay {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    inset: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+}
 .designed-by-homow {
     display: none;
     position: absolute;
@@ -198,6 +206,7 @@ li {
     }
 }
 </style>
+<div class="overlay"></div>
 <div class="wrapper__fixed-header">
     <div class="theme">
         <i class="fas fa-moon"></i>
@@ -240,15 +249,16 @@ class Header extends HTMLElement {
         const changeTheme = this.shadowRoot.querySelector('.theme i');
         const navMenu = this.shadowRoot.querySelector('.nav-menu');
         const btn = this.shadowRoot.querySelector('.btn__nav-menu i');
+        const overlay = this.shadowRoot.querySelector('.overlay');
 
         changeTheme.addEventListener("click", themeControl.changeThemeHandler.bind(null, rootElem));
-        btn.addEventListener("click", openNavMenu.bind(null, navMenu));
+        btn.addEventListener("click", openNavMenu.bind(null, navMenu, overlay));
         themeControl.setTheme(changeTheme, rootElem);
 
         document.addEventListener("click", e => {
             const path = e.composedPath();
             if (!path.includes(navMenu)) {
-                closeMenu(navMenu, btn, e)
+                closeMenu(navMenu, btn, overlay, e)
             }
         });
     }
@@ -269,25 +279,28 @@ const themeControl = {
 };
 
 // open nav menu
-const openNavMenu = (menu, event) => {
+const openNavMenu = (menu, overlay, event) => {
     event.stopPropagation();
 
     if (!menu.classList.contains("open__nav-menu")) {
         menu.classList.add("open__nav-menu");
         event.target.className = "fa fa-close";
+        overlay.style.display = "block";
     } else {
         menu.classList.remove("open__nav-menu");
         event.target.className = "fa fa-bars";
+        overlay.style.display = "none";
     }
 };
 
 // close nav menu
-function closeMenu(navMenu, btn, e) {
+function closeMenu(navMenu, btn, overlay, e) {
     e.stopPropagation();
 
     if (navMenu.classList.contains("open__nav-menu")) {
         navMenu.classList.remove("open__nav-menu");
         btn.className = "fa fa-bars";
+        overlay.style.display = "none";
     }
 }
 

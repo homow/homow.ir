@@ -25,7 +25,7 @@ li {
 }
 .overlay {
     display: none;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
     inset: 0;
     min-width: 100vw;

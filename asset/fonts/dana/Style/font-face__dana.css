@@ -1,21 +1,19 @@
 @font-face {
+    font-display: swap;
     font-family: 'dana medium';
     font-style: normal;
     font-weight: 500;
     src: local('dana medium'),
     url('/asset/fonts/dana/dana medium.woff') format('woff'),
     url('/asset/fonts/dana/dana medium.ttf') format('truetype');
-
-    font-display: swap;
 }
 
 @font-face {
-    font-family: 'dana extrabold';
-    font-style: normal;
-    font-weight: 800;
-    src: local('dana extrabold'),
-    url('/asset/fonts/dana/dana extrabold.woff') format('woff'),
-    url('/asset/fonts/dana/dana extrabold.ttf') format('truetype');
-
     font-display: swap;
+    font-family: 'dana bold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('dana bold'),
+    url('/asset/fonts/dana/dana bold.woff') format('woff'),
+    url('/asset/fonts/dana/dana bold.ttf') format('truetype');
 }

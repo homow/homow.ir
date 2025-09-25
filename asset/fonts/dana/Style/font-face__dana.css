@@ -1,5 +1,14 @@
 @font-face {
     font-display: swap;
+    font-family: 'dana regular';
+    font-style: normal;
+    font-weight: 400;
+    src: local('dana regular'), local('dana-regular'),
+    url('/asset/fonts/dana/dana regular.woff') format('woff'),
+    url('/asset/fonts/dana/dana regular.ttf') format('truetype');
+}
+@font-face {
+    font-display: swap;
     font-family: 'dana medium';
     font-style: normal;
     font-weight: 500;

@@ -121,9 +121,6 @@ html {
 .footer__copyright p:first-child {
     margin-bottom: .8rem;
 }
-.footer__copyright p:last-child {
-    font-weight: 600;
-}
 .footer__copyright a, .footer__info a {
     font-family: 'dana extrabold', serif;
     text-decoration: underline;

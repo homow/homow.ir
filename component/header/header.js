@@ -116,11 +116,6 @@ li {
     .theme i {
         font-size: 1.2rem;
     }
-
-    .nav-menu {
-        gap: .7rem;
-        font-size: .9rem;
-    }
 }
 
 @media only screen and (min-width: 720px) and (max-width: 1000px) {
@@ -131,8 +126,8 @@ li {
 
 @media only screen and (max-width: 825px) {
     .nav-menu {
-        gap: 0.55rem;
-        font-size: .85rem;
+        gap: 0.6rem;
+        font-size: .95rem;
     }
 
     .nav-menu__link {

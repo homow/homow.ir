@@ -195,7 +195,8 @@ li {
     }
 
     .btn__nav-menu {
-        display: block;
+        display: inline-block;
+        height: 23px;
     }
 }
 
